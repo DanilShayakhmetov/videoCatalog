@@ -39,6 +39,7 @@ class appDevDebugProjectContainerUrlGenerator extends Symfony\Component\Routing\
         'app_video_post_1' => array (  0 =>   array (  ),  1 =>   array (    '_controller' => 'AppBundle\\Controller\\VideoController::postAction',  ),  2 =>   array (  ),  3 =>   array (    0 =>     array (      0 => 'text',      1 => '/video',    ),  ),  4 =>   array (  ),  5 =>   array (  ),),
         'app_video_videobyname' => array (  0 =>   array (    0 => 'name',  ),  1 =>   array (    '_controller' => 'AppBundle\\Controller\\VideoController::videoByNameAction',  ),  2 =>   array (  ),  3 =>   array (    0 =>     array (      0 => 'variable',      1 => '/',      2 => '[^/]++',      3 => 'name',    ),    1 =>     array (      0 => 'text',      1 => '/name',    ),  ),  4 =>   array (  ),  5 =>   array (  ),),
         'app_video_get' => array (  0 =>   array (  ),  1 =>   array (    '_controller' => 'AppBundle\\Controller\\VideoController::getAction',  ),  2 =>   array (  ),  3 =>   array (    0 =>     array (      0 => 'text',      1 => '/autocat',    ),  ),  4 =>   array (  ),  5 =>   array (  ),),
+        'app_video_getrand' => array (  0 =>   array (  ),  1 =>   array (    '_controller' => 'AppBundle\\Controller\\VideoController::getRandAction',  ),  2 =>   array (  ),  3 =>   array (    0 =>     array (      0 => 'text',      1 => '/randomList',    ),  ),  4 =>   array (  ),  5 =>   array (  ),),
     );
         }
     }

@@ -17,11 +17,19 @@
       <excludeFolder url="file://$MODULE_DIR$/videoCatalog/vendor/doctrine/lexer" />
       <excludeFolder url="file://$MODULE_DIR$/videoCatalog/vendor/doctrine/orm" />
       <excludeFolder url="file://$MODULE_DIR$/videoCatalog/vendor/fig/link-util" />
+      <excludeFolder url="file://$MODULE_DIR$/videoCatalog/vendor/friendsofsymfony/rest-bundle" />
       <excludeFolder url="file://$MODULE_DIR$/videoCatalog/vendor/incenteev/composer-parameter-handler" />
       <excludeFolder url="file://$MODULE_DIR$/videoCatalog/vendor/jdorn/sql-formatter" />
+      <excludeFolder url="file://$MODULE_DIR$/videoCatalog/vendor/jms/metadata" />
+      <excludeFolder url="file://$MODULE_DIR$/videoCatalog/vendor/jms/parser-lib" />
+      <excludeFolder url="file://$MODULE_DIR$/videoCatalog/vendor/jms/serializer" />
+      <excludeFolder url="file://$MODULE_DIR$/videoCatalog/vendor/jms/serializer-bundle" />
       <excludeFolder url="file://$MODULE_DIR$/videoCatalog/vendor/madcoda/php-youtube-api" />
       <excludeFolder url="file://$MODULE_DIR$/videoCatalog/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/videoCatalog/vendor/nelmio/cors-bundle" />
       <excludeFolder url="file://$MODULE_DIR$/videoCatalog/vendor/paragonie/random_compat" />
+      <excludeFolder url="file://$MODULE_DIR$/videoCatalog/vendor/phpcollection/phpcollection" />
+      <excludeFolder url="file://$MODULE_DIR$/videoCatalog/vendor/phpoption/phpoption" />
       <excludeFolder url="file://$MODULE_DIR$/videoCatalog/vendor/psr/cache" />
       <excludeFolder url="file://$MODULE_DIR$/videoCatalog/vendor/psr/container" />
       <excludeFolder url="file://$MODULE_DIR$/videoCatalog/vendor/psr/link" />
@@ -44,6 +52,8 @@
       <excludeFolder url="file://$MODULE_DIR$/videoCatalog/vendor/symfony/symfony" />
       <excludeFolder url="file://$MODULE_DIR$/videoCatalog/vendor/twbs/bootstrap" />
       <excludeFolder url="file://$MODULE_DIR$/videoCatalog/vendor/twig/twig" />
+      <excludeFolder url="file://$MODULE_DIR$/videoCatalog/vendor/willdurand/jsonp-callback-validator" />
+      <excludeFolder url="file://$MODULE_DIR$/videoCatalog/vendor/willdurand/negotiation" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

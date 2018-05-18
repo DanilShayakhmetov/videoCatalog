@@ -193,6 +193,18 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
         }
         not_app_video_videobyname:
 
+        // app_video_getrand
+        if ('/randomList' === $pathinfo) {
+            $ret = array (  '_controller' => 'AppBundle\\Controller\\VideoController::getRandAction',  '_route' => 'app_video_getrand',);
+            if (!in_array($canonicalMethod, array('GET'))) {
+                $allow = array_merge($allow, array('GET'));
+                goto not_app_video_getrand;
+            }
+
+            return $ret;
+        }
+        not_app_video_getrand:
+
         if ('/' === $pathinfo && !$allow) {
             throw new Symfony\Component\Routing\Exception\NoConfigurationException();
         }

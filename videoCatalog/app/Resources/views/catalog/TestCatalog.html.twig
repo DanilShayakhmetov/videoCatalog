@@ -1,0 +1,35 @@
+
+{% block catalog %}
+    {#{% if app.user %}#}
+        {#{{ app.user.username }}#}
+    {#{% endif %}#}
+
+{% for item in full %}
+
+
+
+    {% if item %}
+        <div class="col-sm-3" style="background-color:white;">
+
+
+            <h3>{{ item.snippet.title}}</h3>
+            <li>{{ item.player.embedHtml|raw }}</li>
+            <li>{{ item.snippet.localized.description }}</li>
+            {#<li>{{ item.snippet.title}}</li>#}
+
+
+
+        </div>
+    {% endif %}
+
+    {##}
+    {#<h3>{{ item.snippet.title}}</h3>#}
+    {#<li>{{ item.player.embedHtml|raw }}</li>#}
+    {#<li>{{ item.snippet.localized.description }}</li>#}
+    {#<li>{{ item.snippet.title}}</li>#}
+
+
+
+
+
+{% endfor %}

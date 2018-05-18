@@ -2,7 +2,626 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8db9ed7c-7ec1-455f-84e3-e48402f84409" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/appDevDebugProjectContainer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrineCache_Providers_Doctrine_Orm_DefaultMetadataCacheService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrineCache_Providers_Doctrine_Orm_DefaultQueryCacheService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrineCache_Providers_Doctrine_Orm_DefaultResultCacheService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_Dbal_DefaultConnectionService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/removed-ids.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/appDevDebugProjectContainer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getAnnotations_CacheService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getAnnotations_CacheWarmerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getArgumentResolver_DefaultService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getArgumentResolver_RequestAttributeService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getArgumentResolver_RequestService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getArgumentResolver_ServiceService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getArgumentResolver_SessionService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getArgumentResolver_VariadicService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getCacheClearerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getCacheWarmerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getCache_DefaultClearerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getCache_GlobalClearerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getCache_SystemClearerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getConfig_Resource_SelfCheckingResourceCheckerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getConsole_CommandLoaderService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getConsole_Command_AboutService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getConsole_Command_AssetsInstallService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getConsole_Command_CacheClearService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getConsole_Command_CachePoolClearService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getConsole_Command_CachePoolPruneService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getConsole_Command_CacheWarmupService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getConsole_Command_ConfigDebugService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getConsole_Command_ConfigDumpReferenceService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getConsole_Command_ContainerDebugService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getConsole_Command_DebugAutowiringService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getConsole_Command_EventDispatcherDebugService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getConsole_Command_FormDebugService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getConsole_Command_RouterDebugService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getConsole_Command_RouterMatchService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getConsole_Command_XliffLintService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getConsole_Command_YamlLintService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getConsole_ErrorListenerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getDebug_DumpListenerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getDebug_FileLinkFormatter_UrlFormatService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getDefaultControllerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getDependencyInjection_Config_ContainerParametersResourceCheckerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getDeprecated_Form_RegistryService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getDeprecated_Form_Registry_CsrfService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getDoctrineCache_ContainsCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getDoctrineCache_DeleteCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getDoctrineCache_FlushCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getDoctrineCache_Providers_Doctrine_Orm_DefaultMetadataCacheService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getDoctrineCache_Providers_Doctrine_Orm_DefaultQueryCacheService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getDoctrineCache_Providers_Doctrine_Orm_DefaultResultCacheService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getDoctrineCache_StatsCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getDoctrine_CacheClearMetadataCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getDoctrine_CacheClearQueryCacheCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getDoctrine_CacheClearResultCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getDoctrine_CacheCollectionRegionCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getDoctrine_ClearEntityRegionCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getDoctrine_ClearQueryRegionCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getDoctrine_DatabaseCreateCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getDoctrine_DatabaseDropCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getDoctrine_DatabaseImportCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getDoctrine_Dbal_ConnectionFactoryService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getDoctrine_Dbal_DefaultConnectionService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getDoctrine_EnsureProductionSettingsCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getDoctrine_GenerateEntitiesCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getDoctrine_MappingConvertCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getDoctrine_MappingImportCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getDoctrine_MappingInfoCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getDoctrine_Orm_DefaultEntityListenerResolverService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getDoctrine_Orm_DefaultEntityManagerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getDoctrine_Orm_DefaultEntityManager_PropertyInfoExtractorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getDoctrine_Orm_DefaultListeners_AttachEntityListenersService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getDoctrine_Orm_DefaultManagerConfiguratorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getDoctrine_Orm_ProxyCacheWarmerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getDoctrine_Orm_Validator_UniqueService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getDoctrine_QueryDqlCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getDoctrine_QuerySqlCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getDoctrine_SchemaCreateCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getDoctrine_SchemaDropCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getDoctrine_SchemaUpdateCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getDoctrine_SchemaValidateCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getFileLocatorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getFilesystemService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getForm_FactoryService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getForm_RegistryService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getForm_ResolvedTypeFactoryService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getForm_ServerParamsService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getForm_TypeExtension_CsrfService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getForm_TypeExtension_Form_DataCollectorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getForm_TypeExtension_Form_HttpFoundationService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getForm_TypeExtension_Form_ValidatorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getForm_TypeExtension_Repeated_ValidatorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getForm_TypeExtension_Submit_ValidatorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getForm_TypeExtension_Upload_ValidatorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getForm_TypeGuesser_DoctrineService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getForm_TypeGuesser_ValidatorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getForm_Type_BirthdayService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getForm_Type_ButtonService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getForm_Type_CheckboxService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getForm_Type_ChoiceService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getForm_Type_CollectionService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getForm_Type_CountryService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getForm_Type_CurrencyService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getForm_Type_DateService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getForm_Type_DatetimeService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getForm_Type_EmailService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getForm_Type_EntityService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getForm_Type_FileService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getForm_Type_FormService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getForm_Type_HiddenService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getForm_Type_IntegerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getForm_Type_LanguageService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getForm_Type_LocaleService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getForm_Type_MoneyService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getForm_Type_NumberService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getForm_Type_PasswordService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getForm_Type_PercentService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getForm_Type_RadioService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getForm_Type_RangeService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getForm_Type_RepeatedService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getForm_Type_ResetService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getForm_Type_SearchService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getForm_Type_SubmitService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getForm_Type_TextService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getForm_Type_TextareaService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getForm_Type_TimeService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getForm_Type_TimezoneService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getForm_Type_UrlService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getFosRest_Decoder_JsonService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getFosRest_Decoder_JsontoformService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getFosRest_Decoder_XmlService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getFosRest_InflectorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getFosRest_Normalizer_CamelKeysService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getFosRest_Normalizer_CamelKeysWithLeadingUnderscoreService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getFosRest_SerializerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getFosRest_Serializer_JmsHandlerRegistry_InnerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getFosRest_ViewResponseListenerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getFragment_HandlerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getFragment_Renderer_HincludeService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getFragment_Renderer_InlineService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getHttpExceptionListenerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getJmsSerializerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getJmsSerializer_AccessorStrategyService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getJmsSerializer_ArrayCollectionHandlerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getJmsSerializer_ConstraintViolationHandlerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getJmsSerializer_DatetimeHandlerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getJmsSerializer_DeserializationContextFactoryService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getJmsSerializer_DoctrineProxySubscriberService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getJmsSerializer_ExpressionEvaluatorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getJmsSerializer_FormErrorHandlerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getJmsSerializer_HandlerRegistryService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getJmsSerializer_JsonDeserializationVisitorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getJmsSerializer_JsonSerializationVisitorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getJmsSerializer_MetadataDriverService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getJmsSerializer_NamingStrategyService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getJmsSerializer_ObjectConstructorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getJmsSerializer_PhpCollectionHandlerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getJmsSerializer_SerializationContextFactoryService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getJmsSerializer_StopwatchSubscriberService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getJmsSerializer_Templating_Helper_SerializerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getJmsSerializer_TwigExtension_SerializerRuntimeHelperService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getJmsSerializer_UnserializeObjectConstructorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getJmsSerializer_XmlDeserializationVisitorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getJmsSerializer_XmlSerializationVisitorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getJmsSerializer_YamlSerializationVisitorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getKernel_ClassCache_CacheWarmerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getMonolog_Handler_NullInternalService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getMonolog_Logger_ConsoleService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getMonolog_Logger_DoctrineService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getMonolog_Logger_SecurityService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getPropertyAccessorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getRedirectControllerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getRouter_CacheWarmerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getRouting_LoaderService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getSecurity_AccessListenerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getSecurity_AccessMapService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getSecurity_Access_AuthenticatedVoterService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getSecurity_Access_ExpressionVoterService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getSecurity_Access_SimpleRoleVoterService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getSecurity_AuthenticationUtilsService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getSecurity_Authentication_GuardHandlerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getSecurity_Authentication_Listener_Anonymous_MainService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getSecurity_Authentication_Provider_Anonymous_MainService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getSecurity_ChannelListenerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getSecurity_Command_UserPasswordEncoderService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getSecurity_ContextListener_0Service.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getSecurity_Csrf_TokenManagerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getSecurity_EncoderFactoryService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getSecurity_Firewall_Map_Context_DevService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getSecurity_Firewall_Map_Context_MainService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getSecurity_PasswordEncoderService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getSecurity_RequestMatcher_Zfhj2lwService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getSecurity_UserValueResolverService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getSecurity_User_Provider_Concrete_InMemoryService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getSecurity_Validator_UserPasswordService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getSensioDistribution_SecurityCheckerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getSensioDistribution_SecurityChecker_CommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getServiceLocator_Sr6ctxeService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getServicesResetterService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getSessionService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getSession_HandlerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getSession_Storage_FilesystemService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getSession_Storage_MetadataBagService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getSession_Storage_NativeService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getSession_Storage_PhpBridgeService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getSwiftmailer_EmailSender_ListenerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getSwiftmailer_Mailer_DefaultService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getSwiftmailer_Mailer_Default_Plugin_MessageloggerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getSwiftmailer_Mailer_Default_SpoolService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getSwiftmailer_Mailer_Default_TransportService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getSwiftmailer_Mailer_Default_Transport_EventdispatcherService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getSwiftmailer_Mailer_Default_Transport_RealService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getTemplateControllerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getTemplating_Helper_LogoutUrlService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getTemplating_Helper_SecurityService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getTwig_CacheWarmerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getTwig_Command_DebugService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getTwig_Command_LintService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getTwig_Controller_ExceptionService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getTwig_Controller_PreviewErrorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getTwig_ExceptionListenerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getTwig_Form_RendererService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getTwig_Runtime_HttpkernelService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getTwig_TemplateCacheWarmerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getTwig_Translation_ExtractorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getValidator_EmailService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getValidator_ExpressionService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getValidator_Mapping_CacheWarmerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getVarDumper_CliDumperService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getVideoControllerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getViewHandlerInterfaceService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getWebProfiler_Controller_ExceptionService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getWebProfiler_Controller_ProfilerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getWebProfiler_Controller_RouterService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getWebServer_Command_ServerLogService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getWebServer_Command_ServerRunService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getWebServer_Command_ServerStartService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getWebServer_Command_ServerStatusService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/getWebServer_Command_ServerStopService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1/removed-ids.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/Lje6kPL3B6/+/K/+XETndHMaQ20hWdwjiak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/Lje6kPL3B6/F/N/J3YJuNWeYWzM0bnM8+sz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/Lje6kPL3B6/N/R/J1Zg7T5P+NbZhYw2dXay" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/Lje6kPL3B6/Q/F/ZGkAsIYlsRPcVlZcbHSL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/00/5a/915a00" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/13/2f/a22f13" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/27/b5/90b527" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/2d/5b/1a5b2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/3e/38/78383e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/4d/46/fc464d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/6e/98/a8986e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/72/6b/6d6b72" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/79/54/385479" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/7d/06/3e067d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/83/5b/f65b83" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/86/f9/80f986" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/9c/62/85629c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/9d/02/e2029d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/b0/fb/e1fbb0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/b9/db/89dbb9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/bd/01/a901bd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/ce/8e/a58ece" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/d1/2b/6f2bd1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/d4/44/3e44d4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/d5/9a/3d9ad5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/d6/23/de23d6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/de/55/8455de" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/e3/37/1f37e3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/e4/97/d997e4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/fd/a9/8aa9fd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/var/sessions/dev/sess_d4b041ac3bd9eee72b2e8a296bb049fb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/videoCat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/videoCat.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/TestCatalog.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/TestCatalog.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/catalog.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/catalog.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/src/AppBundle/Controller/VideoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/src/AppBundle/Controller/VideoController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne.legacy" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerWwb5zl1.legacy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/appDevDebugProjectContainer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getAnnotations_CacheService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getAnnotations_CacheService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getAnnotations_CacheWarmerService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getAnnotations_CacheWarmerService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getArgumentResolver_DefaultService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getArgumentResolver_DefaultService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getArgumentResolver_RequestAttributeService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getArgumentResolver_RequestAttributeService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getArgumentResolver_RequestService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getArgumentResolver_RequestService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getArgumentResolver_ServiceService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getArgumentResolver_ServiceService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getArgumentResolver_SessionService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getArgumentResolver_SessionService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getArgumentResolver_VariadicService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getArgumentResolver_VariadicService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getCacheClearerService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getCacheClearerService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getCacheWarmerService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getCacheWarmerService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getCache_DefaultClearerService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getCache_DefaultClearerService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getCache_GlobalClearerService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getCache_GlobalClearerService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getCache_SystemClearerService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getCache_SystemClearerService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getConfig_Resource_SelfCheckingResourceCheckerService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getConfig_Resource_SelfCheckingResourceCheckerService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getConsole_CommandLoaderService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getConsole_CommandLoaderService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getConsole_Command_AboutService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getConsole_Command_AboutService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getConsole_Command_AssetsInstallService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getConsole_Command_AssetsInstallService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getConsole_Command_CacheClearService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getConsole_Command_CacheClearService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getConsole_Command_CachePoolClearService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getConsole_Command_CachePoolClearService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getConsole_Command_CachePoolPruneService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getConsole_Command_CachePoolPruneService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getConsole_Command_CacheWarmupService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getConsole_Command_CacheWarmupService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getConsole_Command_ConfigDebugService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getConsole_Command_ConfigDebugService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getConsole_Command_ConfigDumpReferenceService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getConsole_Command_ConfigDumpReferenceService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getConsole_Command_ContainerDebugService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getConsole_Command_ContainerDebugService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getConsole_Command_DebugAutowiringService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getConsole_Command_DebugAutowiringService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getConsole_Command_EventDispatcherDebugService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getConsole_Command_EventDispatcherDebugService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getConsole_Command_FormDebugService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getConsole_Command_FormDebugService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getConsole_Command_RouterDebugService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getConsole_Command_RouterDebugService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getConsole_Command_RouterMatchService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getConsole_Command_RouterMatchService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getConsole_Command_XliffLintService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getConsole_Command_XliffLintService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getConsole_Command_YamlLintService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getConsole_Command_YamlLintService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getConsole_ErrorListenerService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getConsole_ErrorListenerService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getDebug_DumpListenerService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDebug_DumpListenerService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getDebug_FileLinkFormatter_UrlFormatService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDebug_FileLinkFormatter_UrlFormatService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getDefaultControllerService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDefaultControllerService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getDependencyInjection_Config_ContainerParametersResourceCheckerService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDependencyInjection_Config_ContainerParametersResourceCheckerService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getDeprecated_Form_RegistryService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDeprecated_Form_RegistryService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getDeprecated_Form_Registry_CsrfService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDeprecated_Form_Registry_CsrfService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getDoctrineCache_ContainsCommandService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrineCache_ContainsCommandService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getDoctrineCache_DeleteCommandService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrineCache_DeleteCommandService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getDoctrineCache_FlushCommandService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrineCache_FlushCommandService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getDoctrineCache_Providers_Doctrine_Orm_DefaultMetadataCacheService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getDoctrineCache_Providers_Doctrine_Orm_DefaultQueryCacheService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getDoctrineCache_Providers_Doctrine_Orm_DefaultResultCacheService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getDoctrineCache_StatsCommandService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrineCache_StatsCommandService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getDoctrine_CacheClearMetadataCommandService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_CacheClearMetadataCommandService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getDoctrine_CacheClearQueryCacheCommandService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_CacheClearQueryCacheCommandService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getDoctrine_CacheClearResultCommandService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_CacheClearResultCommandService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getDoctrine_CacheCollectionRegionCommandService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_CacheCollectionRegionCommandService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getDoctrine_ClearEntityRegionCommandService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_ClearEntityRegionCommandService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getDoctrine_ClearQueryRegionCommandService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_ClearQueryRegionCommandService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getDoctrine_DatabaseCreateCommandService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_DatabaseCreateCommandService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getDoctrine_DatabaseDropCommandService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_DatabaseDropCommandService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getDoctrine_DatabaseImportCommandService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_DatabaseImportCommandService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getDoctrine_Dbal_ConnectionFactoryService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_Dbal_ConnectionFactoryService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getDoctrine_Dbal_DefaultConnectionService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getDoctrine_EnsureProductionSettingsCommandService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_EnsureProductionSettingsCommandService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getDoctrine_GenerateEntitiesCommandService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_GenerateEntitiesCommandService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getDoctrine_MappingConvertCommandService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_MappingConvertCommandService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getDoctrine_MappingImportCommandService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_MappingImportCommandService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getDoctrine_MappingInfoCommandService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_MappingInfoCommandService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getDoctrine_Orm_DefaultEntityListenerResolverService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_Orm_DefaultEntityListenerResolverService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getDoctrine_Orm_DefaultEntityManagerService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_Orm_DefaultEntityManagerService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getDoctrine_Orm_DefaultEntityManager_PropertyInfoExtractorService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_Orm_DefaultEntityManager_PropertyInfoExtractorService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getDoctrine_Orm_DefaultListeners_AttachEntityListenersService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_Orm_DefaultListeners_AttachEntityListenersService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getDoctrine_Orm_DefaultManagerConfiguratorService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_Orm_DefaultManagerConfiguratorService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getDoctrine_Orm_ProxyCacheWarmerService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_Orm_ProxyCacheWarmerService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getDoctrine_Orm_Validator_UniqueService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_Orm_Validator_UniqueService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getDoctrine_QueryDqlCommandService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_QueryDqlCommandService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getDoctrine_QuerySqlCommandService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_QuerySqlCommandService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getDoctrine_SchemaCreateCommandService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_SchemaCreateCommandService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getDoctrine_SchemaDropCommandService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_SchemaDropCommandService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getDoctrine_SchemaUpdateCommandService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_SchemaUpdateCommandService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getDoctrine_SchemaValidateCommandService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_SchemaValidateCommandService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getFileLocatorService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getFileLocatorService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getFilesystemService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getFilesystemService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getForm_FactoryService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_FactoryService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getForm_RegistryService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_RegistryService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getForm_ResolvedTypeFactoryService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_ResolvedTypeFactoryService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getForm_ServerParamsService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_ServerParamsService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getForm_TypeExtension_CsrfService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_TypeExtension_CsrfService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getForm_TypeExtension_Form_DataCollectorService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_TypeExtension_Form_DataCollectorService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getForm_TypeExtension_Form_HttpFoundationService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_TypeExtension_Form_HttpFoundationService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getForm_TypeExtension_Form_ValidatorService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_TypeExtension_Form_ValidatorService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getForm_TypeExtension_Repeated_ValidatorService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_TypeExtension_Repeated_ValidatorService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getForm_TypeExtension_Submit_ValidatorService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_TypeExtension_Submit_ValidatorService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getForm_TypeExtension_Upload_ValidatorService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_TypeExtension_Upload_ValidatorService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getForm_TypeGuesser_DoctrineService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_TypeGuesser_DoctrineService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getForm_TypeGuesser_ValidatorService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_TypeGuesser_ValidatorService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getForm_Type_BirthdayService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_BirthdayService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getForm_Type_ButtonService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_ButtonService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getForm_Type_CheckboxService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_CheckboxService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getForm_Type_ChoiceService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_ChoiceService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getForm_Type_CollectionService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_CollectionService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getForm_Type_CountryService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_CountryService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getForm_Type_CurrencyService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_CurrencyService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getForm_Type_DateService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_DateService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getForm_Type_DatetimeService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_DatetimeService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getForm_Type_EmailService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_EmailService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getForm_Type_EntityService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_EntityService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getForm_Type_FileService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_FileService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getForm_Type_FormService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_FormService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getForm_Type_HiddenService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_HiddenService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getForm_Type_IntegerService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_IntegerService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getForm_Type_LanguageService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_LanguageService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getForm_Type_LocaleService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_LocaleService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getForm_Type_MoneyService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_MoneyService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getForm_Type_NumberService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_NumberService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getForm_Type_PasswordService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_PasswordService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getForm_Type_PercentService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_PercentService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getForm_Type_RadioService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_RadioService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getForm_Type_RangeService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_RangeService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getForm_Type_RepeatedService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_RepeatedService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getForm_Type_ResetService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_ResetService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getForm_Type_SearchService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_SearchService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getForm_Type_SubmitService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_SubmitService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getForm_Type_TextService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_TextService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getForm_Type_TextareaService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_TextareaService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getForm_Type_TimeService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_TimeService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getForm_Type_TimezoneService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_TimezoneService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getForm_Type_UrlService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_UrlService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getFosRest_Decoder_JsonService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getFosRest_Decoder_JsonService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getFosRest_Decoder_JsontoformService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getFosRest_Decoder_JsontoformService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getFosRest_Decoder_XmlService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getFosRest_Decoder_XmlService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getFosRest_InflectorService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getFosRest_InflectorService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getFosRest_Normalizer_CamelKeysService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getFosRest_Normalizer_CamelKeysService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getFosRest_Normalizer_CamelKeysWithLeadingUnderscoreService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getFosRest_Normalizer_CamelKeysWithLeadingUnderscoreService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getFosRest_SerializerService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getFosRest_SerializerService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getFosRest_Serializer_JmsHandlerRegistry_InnerService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getFosRest_Serializer_JmsHandlerRegistry_InnerService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getFosRest_ViewResponseListenerService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getFosRest_ViewResponseListenerService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getFragment_HandlerService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getFragment_HandlerService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getFragment_Renderer_HincludeService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getFragment_Renderer_HincludeService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getFragment_Renderer_InlineService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getFragment_Renderer_InlineService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getHttpExceptionListenerService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getHttpExceptionListenerService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getJmsSerializerService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getJmsSerializerService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getJmsSerializer_AccessorStrategyService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getJmsSerializer_AccessorStrategyService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getJmsSerializer_ArrayCollectionHandlerService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getJmsSerializer_ArrayCollectionHandlerService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getJmsSerializer_ConstraintViolationHandlerService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getJmsSerializer_ConstraintViolationHandlerService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getJmsSerializer_DatetimeHandlerService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getJmsSerializer_DatetimeHandlerService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getJmsSerializer_DeserializationContextFactoryService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getJmsSerializer_DeserializationContextFactoryService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getJmsSerializer_DoctrineProxySubscriberService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getJmsSerializer_DoctrineProxySubscriberService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getJmsSerializer_ExpressionEvaluatorService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getJmsSerializer_ExpressionEvaluatorService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getJmsSerializer_FormErrorHandlerService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getJmsSerializer_FormErrorHandlerService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getJmsSerializer_HandlerRegistryService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getJmsSerializer_HandlerRegistryService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getJmsSerializer_JsonDeserializationVisitorService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getJmsSerializer_JsonDeserializationVisitorService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getJmsSerializer_JsonSerializationVisitorService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getJmsSerializer_JsonSerializationVisitorService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getJmsSerializer_MetadataDriverService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getJmsSerializer_MetadataDriverService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getJmsSerializer_NamingStrategyService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getJmsSerializer_NamingStrategyService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getJmsSerializer_ObjectConstructorService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getJmsSerializer_ObjectConstructorService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getJmsSerializer_PhpCollectionHandlerService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getJmsSerializer_PhpCollectionHandlerService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getJmsSerializer_SerializationContextFactoryService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getJmsSerializer_SerializationContextFactoryService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getJmsSerializer_StopwatchSubscriberService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getJmsSerializer_StopwatchSubscriberService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getJmsSerializer_Templating_Helper_SerializerService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getJmsSerializer_Templating_Helper_SerializerService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getJmsSerializer_TwigExtension_SerializerRuntimeHelperService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getJmsSerializer_TwigExtension_SerializerRuntimeHelperService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getJmsSerializer_UnserializeObjectConstructorService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getJmsSerializer_UnserializeObjectConstructorService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getJmsSerializer_XmlDeserializationVisitorService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getJmsSerializer_XmlDeserializationVisitorService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getJmsSerializer_XmlSerializationVisitorService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getJmsSerializer_XmlSerializationVisitorService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getJmsSerializer_YamlSerializationVisitorService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getJmsSerializer_YamlSerializationVisitorService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getKernel_ClassCache_CacheWarmerService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getKernel_ClassCache_CacheWarmerService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getMonolog_Handler_NullInternalService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getMonolog_Handler_NullInternalService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getMonolog_Logger_ConsoleService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getMonolog_Logger_ConsoleService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getMonolog_Logger_DoctrineService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getMonolog_Logger_DoctrineService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getMonolog_Logger_SecurityService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getMonolog_Logger_SecurityService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getPropertyAccessorService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getPropertyAccessorService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getRedirectControllerService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getRedirectControllerService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getRouter_CacheWarmerService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getRouter_CacheWarmerService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getRouting_LoaderService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getRouting_LoaderService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getSecurity_AccessListenerService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSecurity_AccessListenerService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getSecurity_AccessMapService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSecurity_AccessMapService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getSecurity_Access_AuthenticatedVoterService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSecurity_Access_AuthenticatedVoterService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getSecurity_Access_ExpressionVoterService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSecurity_Access_ExpressionVoterService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getSecurity_Access_SimpleRoleVoterService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSecurity_Access_SimpleRoleVoterService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getSecurity_AuthenticationUtilsService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSecurity_AuthenticationUtilsService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getSecurity_Authentication_GuardHandlerService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSecurity_Authentication_GuardHandlerService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getSecurity_Authentication_Listener_Anonymous_MainService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSecurity_Authentication_Listener_Anonymous_MainService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getSecurity_Authentication_Provider_Anonymous_MainService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSecurity_Authentication_Provider_Anonymous_MainService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getSecurity_ChannelListenerService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSecurity_ChannelListenerService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getSecurity_Command_UserPasswordEncoderService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSecurity_Command_UserPasswordEncoderService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getSecurity_ContextListener_0Service.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSecurity_ContextListener_0Service.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getSecurity_Csrf_TokenManagerService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSecurity_Csrf_TokenManagerService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getSecurity_EncoderFactoryService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSecurity_EncoderFactoryService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getSecurity_Firewall_Map_Context_DevService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSecurity_Firewall_Map_Context_DevService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getSecurity_Firewall_Map_Context_MainService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSecurity_Firewall_Map_Context_MainService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getSecurity_PasswordEncoderService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSecurity_PasswordEncoderService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getSecurity_RequestMatcher_Zfhj2lwService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSecurity_RequestMatcher_Zfhj2lwService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getSecurity_UserValueResolverService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSecurity_UserValueResolverService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getSecurity_User_Provider_Concrete_InMemoryService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSecurity_User_Provider_Concrete_InMemoryService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getSecurity_Validator_UserPasswordService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSecurity_Validator_UserPasswordService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getSensioDistribution_SecurityCheckerService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSensioDistribution_SecurityCheckerService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getSensioDistribution_SecurityChecker_CommandService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSensioDistribution_SecurityChecker_CommandService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getServiceLocator_Sr6ctxeService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getServiceLocator_Sr6ctxeService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getServicesResetterService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getServicesResetterService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getSessionService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSessionService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getSession_HandlerService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSession_HandlerService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getSession_Storage_FilesystemService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSession_Storage_FilesystemService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getSession_Storage_MetadataBagService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSession_Storage_MetadataBagService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getSession_Storage_NativeService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSession_Storage_NativeService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getSession_Storage_PhpBridgeService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSession_Storage_PhpBridgeService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getSwiftmailer_EmailSender_ListenerService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSwiftmailer_EmailSender_ListenerService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getSwiftmailer_Mailer_DefaultService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSwiftmailer_Mailer_DefaultService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getSwiftmailer_Mailer_Default_Plugin_MessageloggerService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSwiftmailer_Mailer_Default_Plugin_MessageloggerService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getSwiftmailer_Mailer_Default_SpoolService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSwiftmailer_Mailer_Default_SpoolService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getSwiftmailer_Mailer_Default_TransportService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSwiftmailer_Mailer_Default_TransportService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getSwiftmailer_Mailer_Default_Transport_EventdispatcherService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSwiftmailer_Mailer_Default_Transport_EventdispatcherService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getSwiftmailer_Mailer_Default_Transport_RealService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSwiftmailer_Mailer_Default_Transport_RealService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getTemplateControllerService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getTemplateControllerService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getTemplating_Helper_LogoutUrlService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getTemplating_Helper_LogoutUrlService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getTemplating_Helper_SecurityService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getTemplating_Helper_SecurityService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getTwig_CacheWarmerService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getTwig_CacheWarmerService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getTwig_Command_DebugService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getTwig_Command_DebugService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getTwig_Command_LintService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getTwig_Command_LintService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getTwig_Controller_ExceptionService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getTwig_Controller_ExceptionService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getTwig_Controller_PreviewErrorService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getTwig_Controller_PreviewErrorService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getTwig_ExceptionListenerService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getTwig_ExceptionListenerService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getTwig_Form_RendererService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getTwig_Form_RendererService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getTwig_Runtime_HttpkernelService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getTwig_Runtime_HttpkernelService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getTwig_TemplateCacheWarmerService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getTwig_TemplateCacheWarmerService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getTwig_Translation_ExtractorService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getTwig_Translation_ExtractorService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getValidator_EmailService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getValidator_EmailService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getValidator_ExpressionService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getValidator_ExpressionService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getValidator_Mapping_CacheWarmerService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getValidator_Mapping_CacheWarmerService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getVarDumper_CliDumperService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getVarDumper_CliDumperService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getVideoControllerService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getVideoControllerService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getViewHandlerInterfaceService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getViewHandlerInterfaceService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getWebProfiler_Controller_ExceptionService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getWebProfiler_Controller_ExceptionService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getWebProfiler_Controller_ProfilerService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getWebProfiler_Controller_ProfilerService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getWebProfiler_Controller_RouterService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getWebProfiler_Controller_RouterService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getWebServer_Command_ServerLogService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getWebServer_Command_ServerLogService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getWebServer_Command_ServerRunService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getWebServer_Command_ServerRunService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getWebServer_Command_ServerStartService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getWebServer_Command_ServerStartService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getWebServer_Command_ServerStatusService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getWebServer_Command_ServerStatusService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/getWebServer_Command_ServerStopService.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getWebServer_Command_ServerStopService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerMwqdcne/removed-ids.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/appDevDebugProjectContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/appDevDebugProjectContainer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/appDevDebugProjectContainer.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/appDevDebugProjectContainer.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/appDevDebugProjectContainer.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/appDevDebugProjectContainer.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/OFtpmtm10+/+/K/+XETndHMaQ20hWdwjiak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/OFtpmtm10+/1/P/5wPT8H-58171-RaOsulu" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/Lje6kPL3B6/1/P/5wPT8H-58171-RaOsulu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/OFtpmtm10+/A/Y/6HJsUV1iA8iPRD200rj+" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/Lje6kPL3B6/A/Y/6HJsUV1iA8iPRD200rj+" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/OFtpmtm10+/F/N/J3YJuNWeYWzM0bnM8+sz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/OFtpmtm10+/H/Q/I9gkK-+CodEYJYyIcMSf" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/Lje6kPL3B6/H/Q/I9gkK-+CodEYJYyIcMSf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/OFtpmtm10+/J/Z/2SqFfz3X4Oa7xv+NrfFl" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/Lje6kPL3B6/J/Z/2SqFfz3X4Oa7xv+NrfFl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/OFtpmtm10+/N/R/J1Zg7T5P+NbZhYw2dXay" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/OFtpmtm10+/Q/F/ZGkAsIYlsRPcVlZcbHSL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/-/C/Pv5ysaBDW9IOJ8Gih+AR" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/-/C/Pv5ysaBDW9IOJ8Gih+AR" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/0/Z/+0kzoRWFx8NA0YNFpBnZ" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/0/Z/+0kzoRWFx8NA0YNFpBnZ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/2/9/68zs65ipCOe6ipaCCt74" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/2/9/68zs65ipCOe6ipaCCt74" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/3/9/bTaCSa0iEWosYhUXLm8I" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/3/9/bTaCSa0iEWosYhUXLm8I" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/6/R/Ji3RTa36P+g3fRPGr71k" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/6/R/Ji3RTa36P+g3fRPGr71k" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/8/T/ZBqqtqoiSaCmg0Y8woD8" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/8/T/ZBqqtqoiSaCmg0Y8woD8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/9/C/UxjeZfGHio-+YAJq9fLx" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/9/C/UxjeZfGHio-+YAJq9fLx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/9/M/8sh2P6uDRSOnNQU1rBbP" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/9/M/8sh2P6uDRSOnNQU1rBbP" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/B/3/50SQDnTj+jol4O0rM22C" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/B/3/50SQDnTj+jol4O0rM22C" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/B/B/KA2UHv0K1V1Aq6Pv9nfD" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/B/B/KA2UHv0K1V1Aq6Pv9nfD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/B/D/JgPX8aqhVpBDBAiwAYaF" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/B/D/JgPX8aqhVpBDBAiwAYaF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/B/W/2PETaKNVymx9t5po2a7Z" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/B/W/2PETaKNVymx9t5po2a7Z" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/C/2/O8hjPaPHry9eomvkAmN2" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/C/2/O8hjPaPHry9eomvkAmN2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/C/E/XgXbi4xS6SdzzyXmKolh" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/C/E/XgXbi4xS6SdzzyXmKolh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/D/S/w3cNXQJnlXyMifKBCQR6" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/D/S/w3cNXQJnlXyMifKBCQR6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/H/S/Za-kIOx63vFGezwdiajQ" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/H/S/Za-kIOx63vFGezwdiajQ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/H/T/N-EsLtasApSyOwb7SIrM" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/H/T/N-EsLtasApSyOwb7SIrM" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/I/B/FvqDkQS+lkfQTl+VavWD" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/I/B/FvqDkQS+lkfQTl+VavWD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/I/R/+86K3FcLapjn60jpl0md" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/I/R/+86K3FcLapjn60jpl0md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/J/W/cKlyqHKc+F4vxdlGurLe" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/J/W/cKlyqHKc+F4vxdlGurLe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/L/C/+pHpVpr1qp8RjLrHWT7n" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/L/C/+pHpVpr1qp8RjLrHWT7n" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/L/G/k9j28fgVmexJo6XBX-Lc" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/L/G/k9j28fgVmexJo6XBX-Lc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/M/H/VRDf+8T0+bLwbh7990Kt" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/M/H/VRDf+8T0+bLwbh7990Kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/M/L/oOVcQ1+opllVcr2HPzis" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/M/L/oOVcQ1+opllVcr2HPzis" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/N/I/PIozN+7wvRpqyNt9SjLH" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/N/I/PIozN+7wvRpqyNt9SjLH" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/N/Z/wM+kamaA8DOK0+WshTdn" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/N/Z/wM+kamaA8DOK0+WshTdn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/O/J/zzydK0gEinnSq6+IRXvN" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/O/J/zzydK0gEinnSq6+IRXvN" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/Q/-/4zWrgWkc8EcAZOILbjM5" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/Q/-/4zWrgWkc8EcAZOILbjM5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/Q/5/oovLUiO1WdO7bzZFamkY" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/Q/N/kNO4zV0jtogd6FJ-4jtY" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/Q/N/kNO4zV0jtogd6FJ-4jtY" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/R/L/gFyb8-FegEotJ1xN8nAt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/R/R/7vrQAyI-J66fICP0-HVd" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/R/R/7vrQAyI-J66fICP0-HVd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/S/P/bwGmAIo0XDNwrTbk3n1v" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/S/P/bwGmAIo0XDNwrTbk3n1v" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/T/L/0SrhIPiNK2CUNsipX4N-" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/T/L/0SrhIPiNK2CUNsipX4N-" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/U/D/L6ROwYDmHFpmBNkPkEBq" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/U/D/L6ROwYDmHFpmBNkPkEBq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/U/K/KZrH-NBeyMDT5ZcgZ7se" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/U/K/KZrH-NBeyMDT5ZcgZ7se" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/U/U/Di+c2pbf7mRTTWLGfYvZ" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/U/U/Di+c2pbf7mRTTWLGfYvZ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/V/A/D9HeJJJFYmMmJ9PuYVHZ" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/V/A/D9HeJJJFYmMmJ9PuYVHZ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/V/F/geIusAz-S+yrNxBvgjbW" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/V/F/geIusAz-S+yrNxBvgjbW" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/V/J/kNO21SaqP-BxbkAm6lFA" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/V/J/kNO21SaqP-BxbkAm6lFA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/W/K/EFKkiFisZwCi-krPpbaN" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/W/K/EFKkiFisZwCi-krPpbaN" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/W/Z/vlotDXMr5uGmrdjTuWqx" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/W/Z/vlotDXMr5uGmrdjTuWqx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/X/Z/Mh0nMchfpcPJoyXjaRIE" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/X/Z/Mh0nMchfpcPJoyXjaRIE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/Y/P/S56CWiBvn1am0pa7ltd0" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/Y/P/S56CWiBvn1am0pa7ltd0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/Z/O/5ioEHxTlicYtJwgSXwCC" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/Z/O/5ioEHxTlicYtJwgSXwCC" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/0b/89/f0890b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/0c/26/c8260c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/0c/99/5b990c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/19/02/ec0219" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/1f/99/b5991f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/20/38/0c3820" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/2d/3f/5b3f2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/2f/42/d6422f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/2f/e4/92e42f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/31/4b/934b31" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/46/59/815946" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/48/57/815748" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/4c/50/62504c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/50/cc/35cc50" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/52/38/593852" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/60/9d/fb9d60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/63/59/9d5963" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/64/22/ae2264" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/64/39/3d3964" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/69/02/7e0269" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/6d/cd/cccd6d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/6e/07/0c076e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/70/7d/d77d70" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/72/f3/e5f372" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/82/52/ba5282" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/83/64/c36483" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/84/d5/a4d584" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/97/ac/9aac97" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/9a/71/d9719a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/b5/57/e457b5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/b6/c2/36c2b6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/bc/03/5803bc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/be/1c/161cbe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/c0/57/e057c0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/c0/c0/70c0c0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/c4/a4/9da4c4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/c8/5b/a05bc8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/d0/12/7f12d0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/d3/2f/712fd3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/d3/ea/72ead3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/d4/4f/9c4fd4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/e5/2a/a52ae5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/e6/ec/01ece6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/f5/b8/f4b8f5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/f5/ea/e2eaf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/f8/86/0086f8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/index.csv" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/index.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/twig/2a/2a06ed3cfc1c2c4bd1cd54bec0ce4d9e58c33887f2a3d053c5815c920daf2f6c.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/twig/2a/2a06ed3cfc1c2c4bd1cd54bec0ce4d9e58c33887f2a3d053c5815c920daf2f6c.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/twig/b6/b63b21fb1be5ce123fc0ecd67025e359d5984a05d7ec3b5b45c375b37a89c170.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/logs/dev.log" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/logs/dev.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -11,15 +630,29 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/videoCatalog/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="VideoController.php" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="VideoController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/videoCatalog/src/AppBundle/Controller/VideoController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2277" />
+            <state relative-caret-position="993">
+              <caret line="240" column="2" selection-start-line="240" selection-start-column="2" selection-end-line="240" selection-end-column="2" />
+              <folding>
+                <element signature="e#160#192#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="parameters.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/videoCatalog/app/config/parameters.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -33,19 +666,9 @@
         </entry>
       </file>
       <file leaf-file-name="app_dev.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/videoCatalog/app_dev.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="app.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/videoCatalog/web/app.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="app_dev.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/videoCatalog/web/app_dev.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
+            <state relative-caret-position="45">
               <caret line="4" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="e#7#41#0#PHP" expanded="true" />
@@ -66,26 +689,26 @@
       <file leaf-file-name="basicLanguages.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/basicLanguages.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
+            <state relative-caret-position="390">
               <caret line="26" selection-start-line="26" selection-end-line="52" selection-end-column="14" />
-              <folding>
-                <element signature="e#448#480#0#HTML" expanded="true" />
-                <element signature="e#933#967#0#HTML" expanded="true" />
-                <element signature="e#1045#1079#0#HTML" expanded="true" />
-                <element signature="e#1157#1191#0#HTML" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="catalog.html.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="catalog.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/catalog.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-              <folding>
-                <element signature="e#127#161#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestCatalog.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/TestCatalog.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -110,7 +733,10 @@
         <option value="$PROJECT_DIR$/Dockerfile_NGINX.sh" />
         <option value="$PROJECT_DIR$/videoCatalog/web/app_dev.php" />
         <option value="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/basicLanguages.html.twig" />
+        <option value="$PROJECT_DIR$/videoCatalog/app/config/parameters.yml" />
+        <option value="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/TestCatalog.html.twig" />
         <option value="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/catalog.html.twig" />
+        <option value="$PROJECT_DIR$/videoCatalog/src/AppBundle/Controller/VideoController.php" />
       </list>
     </option>
   </component>
@@ -121,9 +747,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/videoCatalog/vendor/twbs/bootstrap/package.json" />
-    </packageJsonPaths>
+    <packageJsonPaths />
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -167,6 +794,16 @@
       <path value="$PROJECT_DIR$/videoCatalog/vendor/psr/log" />
       <path value="$PROJECT_DIR$/videoCatalog/vendor/psr/cache" />
       <path value="$PROJECT_DIR$/videoCatalog/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/jms/metadata" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/jms/serializer-bundle" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/jms/serializer" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/jms/parser-lib" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/nelmio/cors-bundle" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/willdurand/jsonp-callback-validator" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/willdurand/negotiation" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/phpcollection/phpcollection" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/friendsofsymfony/rest-bundle" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -181,43 +818,42 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="videoCat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="videoCat" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="videocat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="videocat" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="videoCat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="videoCat" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="videocat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="videocat" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="videoCatalog" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="videoCat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="videoCat" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="videocat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="videocat" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="videoCatalog" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="videoCat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="videoCat" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="videocat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="videocat" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="videoCatalog" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="videoCat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="videoCat" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="videocat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="videocat" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="videoCatalog" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="videoCat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="videoCat" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="videocat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="videocat" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="videoCatalog" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
@@ -225,19 +861,36 @@
               <item name="catalog" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="videoCat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="videoCat" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="videocat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="videocat" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="videoCatalog" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="videocat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="videocat" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="videoCatalog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="videocat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="videocat" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="videoCatalog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -265,35 +918,37 @@
       <option name="presentableId" value="Default" />
       <updated>1526544172790</updated>
       <workItem from="1526544173904" duration="3030000" />
+      <workItem from="1526669142948" duration="3756000" />
+      <workItem from="1526676992926" duration="2426000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3030000" />
+    <option name="totallyTimeSpent" value="9212000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2498618" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25816733" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.33053514" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33073324" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,7 +960,19 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/videoCatalog/src/AppBundle/Controller/VideoController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2277" />
+        <state relative-caret-position="3120">
+          <caret line="226" column="17" selection-start-line="226" selection-start-column="17" selection-end-line="226" selection-end-column="17" />
+          <folding>
+            <element signature="e#160#192#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videoCatalog/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Dockerfile_NGINX.sh">
@@ -315,15 +982,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/videoCatalog/app_dev.php">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/videoCatalog/web/app_dev.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#7#41#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/videoCatalog/web/app.php">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/basicLanguages.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" selection-start-line="26" selection-end-line="52" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/catalog.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" lean-forward="true" selection-start-line="2" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/search.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/TestCatalog.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videoCatalog/src/AppBundle/Controller/VideoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#160#192#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile_NGINX.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/videoCatalog/web/app_dev.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
+        <state relative-caret-position="45">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#7#41#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/basicLanguages.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" selection-start-line="26" selection-end-line="52" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/search.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/catalog.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videoCatalog/web/app_dev.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="e#7#41#0#PHP" expanded="true" />
@@ -333,14 +1093,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/basicLanguages.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
+        <state relative-caret-position="390">
           <caret line="26" selection-start-line="26" selection-end-line="52" selection-end-column="14" />
-          <folding>
-            <element signature="e#448#480#0#HTML" expanded="true" />
-            <element signature="e#933#967#0#HTML" expanded="true" />
-            <element signature="e#1045#1079#0#HTML" expanded="true" />
-            <element signature="e#1157#1191#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -358,12 +1112,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile_NGINX.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videoCatalog/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/TestCatalog.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/catalog.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videoCatalog/src/AppBundle/Controller/VideoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="993">
+          <caret line="240" column="2" selection-start-line="240" selection-start-column="2" selection-end-line="240" selection-end-column="2" />
           <folding>
-            <element signature="e#127#161#0#HTML" expanded="true" />
+            <element signature="e#160#192#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

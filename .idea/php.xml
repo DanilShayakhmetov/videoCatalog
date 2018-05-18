@@ -42,6 +42,16 @@
       <path value="$PROJECT_DIR$/videoCatalog/vendor/psr/log" />
       <path value="$PROJECT_DIR$/videoCatalog/vendor/psr/cache" />
       <path value="$PROJECT_DIR$/videoCatalog/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/jms/metadata" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/jms/serializer-bundle" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/jms/serializer" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/jms/parser-lib" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/nelmio/cors-bundle" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/willdurand/jsonp-callback-validator" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/willdurand/negotiation" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/phpcollection/phpcollection" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/friendsofsymfony/rest-bundle" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="5.5.0" />

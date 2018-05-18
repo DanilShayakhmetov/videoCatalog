@@ -212,16 +212,55 @@ class VideoController extends Controller
     {
 
         $list = $this->getDoctrine()->getRepository("AppBundle:CatalogTab")->findAll();
-        $hash = (string)$list->getListHash();
+//        $hash = $list->getListHash();
+        $response = array();
+        foreach ($list as $item){
+            $hash = $item->getListHash();
+            $video = VideoController::ListAction($hash);
+            $response = $response + $video;
 
-        $video = VideoController::ListAction($hash);
+        }
 
         return $this->render('catalog/catalog.html.twig', array(
 
-            'full' => $video
+            'full' => $response
         ));
 
     }
+
+
+
+    /**
+     * @Rest\Get("/randomList")
+     *
+     */
+    public function getRandAction()
+    {
+
+        $list = $this->getDoctrine()->getRepository("AppBundle:CatalogTab")->findAll();
+        $response = array();
+        foreach ($list as $item){
+            $hash = $item->getListHash();
+            $video = VideoController::ListAction($hash);
+            $response = $response + $video;
+
+        }
+            $numbers = array_rand($response,10);
+            $randomList = array();
+        foreach ($numbers as $item){
+
+            array_push($randomList, $response[$item]);
+
+        }
+        return $this->render('catalog/catalog.html.twig', array(
+
+            'full' => $randomList
+        ));
+
+    }
+
+
+
 
 
 

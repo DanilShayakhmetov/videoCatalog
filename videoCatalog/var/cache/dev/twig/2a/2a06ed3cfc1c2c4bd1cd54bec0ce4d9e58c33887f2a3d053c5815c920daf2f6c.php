@@ -51,13 +51,10 @@ class __TwigTemplate_ced364be41bbeacc2753ddd33edf900420f159e8845b5551912f7b6f070
 
         // line 5
         echo "    ";
-        if (twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new Twig_Error_Runtime('Variable "app" does not exist.', 5, $this->source); })()), "user", array())) {
-            // line 6
-            echo "        ";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new Twig_Error_Runtime('Variable "app" does not exist.', 6, $this->source); })()), "user", array()), "username", array()), "html", null, true);
-            echo "
-    ";
-        }
+        // line 6
+        echo "        ";
+        // line 7
+        echo "    ";
         // line 8
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable((isset($context["full"]) || array_key_exists("full", $context) ? $context["full"] : (function () { throw new Twig_Error_Runtime('Variable "full" does not exist.', 8, $this->source); })()));
@@ -85,11 +82,9 @@ class __TwigTemplate_ced364be41bbeacc2753ddd33edf900420f159e8845b5551912f7b6f070
                 // line 18
                 echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, $context["item"], "snippet", array()), "localized", array()), "description", array()), "html", null, true);
                 echo "</li>
-            <li>";
-                // line 19
-                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, $context["item"], "snippet", array()), "title", array()), "html", null, true);
-                echo "</li>
-
+            ";
+                // line 20
+                echo "
 
 
         </div>
@@ -350,7 +345,7 @@ class __TwigTemplate_ced364be41bbeacc2753ddd33edf900420f159e8845b5551912f7b6f070
 
     public function getDebugInfo()
     {
-        return array (  329 => 152,  327 => 150,  324 => 148,  322 => 146,  320 => 145,  318 => 144,  316 => 143,  314 => 142,  312 => 141,  310 => 140,  308 => 139,  306 => 138,  304 => 137,  302 => 136,  300 => 135,  298 => 134,  296 => 133,  294 => 132,  292 => 131,  290 => 130,  288 => 129,  286 => 128,  284 => 127,  282 => 126,  280 => 125,  278 => 124,  276 => 123,  274 => 122,  272 => 121,  270 => 120,  268 => 119,  266 => 118,  264 => 117,  261 => 115,  258 => 113,  256 => 112,  254 => 111,  252 => 110,  250 => 109,  248 => 108,  246 => 107,  244 => 106,  241 => 104,  239 => 103,  237 => 102,  235 => 101,  233 => 100,  231 => 99,  229 => 98,  226 => 96,  224 => 95,  222 => 94,  220 => 93,  218 => 92,  216 => 91,  214 => 90,  212 => 89,  209 => 87,  207 => 86,  205 => 85,  203 => 84,  201 => 83,  199 => 82,  197 => 81,  195 => 80,  193 => 79,  191 => 78,  189 => 77,  187 => 76,  185 => 75,  183 => 74,  181 => 73,  179 => 72,  177 => 71,  175 => 70,  173 => 69,  170 => 67,  168 => 63,  166 => 62,  164 => 61,  162 => 60,  160 => 59,  158 => 58,  156 => 57,  153 => 55,  151 => 54,  149 => 53,  147 => 52,  145 => 51,  143 => 50,  140 => 48,  138 => 47,  136 => 46,  134 => 45,  132 => 44,  129 => 42,  127 => 41,  125 => 40,  121 => 37,  110 => 31,  108 => 30,  106 => 29,  104 => 28,  102 => 27,  99 => 25,  90 => 19,  86 => 18,  82 => 17,  78 => 16,  73 => 13,  71 => 12,  66 => 9,  62 => 8,  56 => 6,  53 => 5,  44 => 4,  15 => 1,);
+        return array (  324 => 152,  322 => 150,  319 => 148,  317 => 146,  315 => 145,  313 => 144,  311 => 143,  309 => 142,  307 => 141,  305 => 140,  303 => 139,  301 => 138,  299 => 137,  297 => 136,  295 => 135,  293 => 134,  291 => 133,  289 => 132,  287 => 131,  285 => 130,  283 => 129,  281 => 128,  279 => 127,  277 => 126,  275 => 125,  273 => 124,  271 => 123,  269 => 122,  267 => 121,  265 => 120,  263 => 119,  261 => 118,  259 => 117,  256 => 115,  253 => 113,  251 => 112,  249 => 111,  247 => 110,  245 => 109,  243 => 108,  241 => 107,  239 => 106,  236 => 104,  234 => 103,  232 => 102,  230 => 101,  228 => 100,  226 => 99,  224 => 98,  221 => 96,  219 => 95,  217 => 94,  215 => 93,  213 => 92,  211 => 91,  209 => 90,  207 => 89,  204 => 87,  202 => 86,  200 => 85,  198 => 84,  196 => 83,  194 => 82,  192 => 81,  190 => 80,  188 => 79,  186 => 78,  184 => 77,  182 => 76,  180 => 75,  178 => 74,  176 => 73,  174 => 72,  172 => 71,  170 => 70,  168 => 69,  165 => 67,  163 => 63,  161 => 62,  159 => 61,  157 => 60,  155 => 59,  153 => 58,  151 => 57,  148 => 55,  146 => 54,  144 => 53,  142 => 52,  140 => 51,  138 => 50,  135 => 48,  133 => 47,  131 => 46,  129 => 45,  127 => 44,  124 => 42,  122 => 41,  120 => 40,  116 => 37,  105 => 31,  103 => 30,  101 => 29,  99 => 28,  97 => 27,  94 => 25,  87 => 20,  83 => 18,  79 => 17,  75 => 16,  70 => 13,  68 => 12,  63 => 9,  59 => 8,  57 => 7,  55 => 6,  53 => 5,  44 => 4,  15 => 1,);
     }
 
     public function getSourceContext()
@@ -359,9 +354,9 @@ class __TwigTemplate_ced364be41bbeacc2753ddd33edf900420f159e8845b5551912f7b6f070
 
 
 {% block catalog %}
-    {% if app.user %}
-        {{ app.user.username }}
-    {% endif %}
+    {#{% if app.user %}#}
+        {#{{ app.user.username }}#}
+    {#{% endif %}#}
 {% for item in full %}
 
 
@@ -373,7 +368,7 @@ class __TwigTemplate_ced364be41bbeacc2753ddd33edf900420f159e8845b5551912f7b6f070
             <h3>{{ item.snippet.title}}</h3>
             <li>{{ item.player.embedHtml|raw }}</li>
             <li>{{ item.snippet.localized.description }}</li>
-            <li>{{ item.snippet.title}}</li>
+            {#<li>{{ item.snippet.title}}</li>#}
 
 
 
