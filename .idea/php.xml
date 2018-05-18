@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/fig/link-util" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/composer" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/sensiolabs/security-checker" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/incenteev/composer-parameter-handler" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/symfony/symfony" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/symfony/polyfill-apcu" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/madcoda/php-youtube-api" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/sensio/generator-bundle" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/sensio/distribution-bundle" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/twbs/bootstrap" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/psr/container" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="5.5.0" />
+</project>

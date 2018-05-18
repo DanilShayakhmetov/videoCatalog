@@ -1,0 +1,4 @@
+/.web-server-pid
+.idea
+/vendor/
+/web/bundles/
