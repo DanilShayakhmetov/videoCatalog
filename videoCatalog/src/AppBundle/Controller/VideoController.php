@@ -176,17 +176,27 @@ class VideoController extends Controller
      *
      */
 
-    public function videoByNameAction($name){
+    public function videoByNameAction($name, Request $request){
 
 
         $list = $this->getDoctrine()->getRepository("AppBundle:CatalogTab")->findOneBy(['listName' => $name]);
         $hash = (string)$list->getListHash();
 
         $video = VideoController::ListAction($hash);
+        /**
+         * @var $paginator \Knp\Component\Pager\Paginator
+         */
+        $paginator  = $this->get('knp_paginator');
+        $result = $pagination = $paginator->paginate(
+            $video,
+            /* query NOT result */
+            $request->query->getInt('page', 1)/*page number*/,
+            12/*limit per page*/
+        );
 
         return $this->render('catalog/catalog.html.twig', array(
 
-            'full' => $video
+            'full' => $result
         ));
 
 

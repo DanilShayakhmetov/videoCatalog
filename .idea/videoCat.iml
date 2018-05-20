@@ -24,6 +24,8 @@
       <excludeFolder url="file://$MODULE_DIR$/videoCatalog/vendor/jms/parser-lib" />
       <excludeFolder url="file://$MODULE_DIR$/videoCatalog/vendor/jms/serializer" />
       <excludeFolder url="file://$MODULE_DIR$/videoCatalog/vendor/jms/serializer-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/videoCatalog/vendor/knplabs/knp-components" />
+      <excludeFolder url="file://$MODULE_DIR$/videoCatalog/vendor/knplabs/knp-paginator-bundle" />
       <excludeFolder url="file://$MODULE_DIR$/videoCatalog/vendor/madcoda/php-youtube-api" />
       <excludeFolder url="file://$MODULE_DIR$/videoCatalog/vendor/monolog/monolog" />
       <excludeFolder url="file://$MODULE_DIR$/videoCatalog/vendor/nelmio/cors-bundle" />

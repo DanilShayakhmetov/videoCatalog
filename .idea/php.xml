@@ -52,6 +52,8 @@
       <path value="$PROJECT_DIR$/videoCatalog/vendor/willdurand/negotiation" />
       <path value="$PROJECT_DIR$/videoCatalog/vendor/phpcollection/phpcollection" />
       <path value="$PROJECT_DIR$/videoCatalog/vendor/friendsofsymfony/rest-bundle" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/knplabs/knp-components" />
+      <path value="$PROJECT_DIR$/videoCatalog/vendor/knplabs/knp-paginator-bundle" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="5.5.0" />
