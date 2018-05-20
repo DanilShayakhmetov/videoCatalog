@@ -13,9 +13,9 @@ use Madcoda\Youtube\Youtube;
 
 $youtube = new Youtube(array('key' => 'AIzaSyAkfKQLoHZHpfhu20alvHt0gwkJ4FPNbtg'));
 $video = $youtube->getVideoInfo('rie-hPVJ7Sw');
-$channelById = $youtube->getPlaylistItemsByPlaylistId('PLuBu40P6jUCZtTMNc8Pd_AHun5AjGmOKK');
-$resultsearch =$youtube->searchVideos("happy");
-return var_dump($resultsearch);
+//$channelById = $youtube->getPlaylistItemsByPlaylistId('PLuBu40P6jUCZtTMNc8Pd_AHun5AjGmOKK');
+//$resultsearch =$youtube->searchVideos("happy");
+//return var_dump($resultsearch);
 
 
 //$channelByName = $youtube->getChannelByName('xdadevelopers');
@@ -38,6 +38,6 @@ return var_dump($resultsearch);
 //var_dump($channelById->snippet);
 
 // return var_dump($channelByName->snippet);
-return var_dump($a);
+//return var_dump($a);
 
-// return var_dump();
+ return var_dump($video);

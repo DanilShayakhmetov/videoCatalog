@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+
+{% block namesList %}
+    {% for name in names %}
+
+    {% if name %}
+        <div class="col-sm-3" style="background-color:white;">
+            <li><a href="/name/{{name}}">{{ name }}</a></li>
+        </div>
+    {% endif %}
+{% endfor %}
+{% endblock %}

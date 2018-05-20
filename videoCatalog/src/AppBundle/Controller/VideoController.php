@@ -29,113 +29,113 @@ class VideoController extends Controller
 {
 
 
-        public function videoAction($videoID)
-        {
+    public function videoAction($videoID)
+    {
 
-            $youtube = new Youtube(array('key' => 'AIzaSyAkfKQLoHZHpfhu20alvHt0gwkJ4FPNbtg'));
-            $video = $youtube->getVideoInfo($videoID);
+        $youtube = new Youtube(array('key' => 'AIzaSyAkfKQLoHZHpfhu20alvHt0gwkJ4FPNbtg'));
+        $video = $youtube->getVideoInfo($videoID);
 
-            $response = array(
-                'full' => $video
-            );
+        $response = array(
+            'full' => $video
+        );
 
-            return $response;
+        return $response;
+
+    }
+
+
+
+
+    public function ListAction($listID)
+    {
+
+        $youtube = new Youtube(array('key' => 'AIzaSyAkfKQLoHZHpfhu20alvHt0gwkJ4FPNbtg'));
+        $channelById = $youtube->getPlaylistItemsByPlaylistId($listID);
+        $video = array();
+
+        foreach ($channelById as $value) {
+
+            $curVideo = $value->snippet->resourceId->videoId;
+            $iterElement = VideoController::videoAction($curVideo);
+            array_push($video, $iterElement['full']);
 
         }
 
+        return $video;
+    }
 
 
+    /**
+     * @Route( "/search")
+     */
+    public function searchAction(Request $request)
+    {
 
-        public function ListAction($listID)
-        {
+        $form = $this->createFormBuilder()
+            ->add('search', TextType::class)
+            ->getForm();
+        $form->handleRequest($request);
 
+        if ($form->isSubmitted() && $form->isValid()) {
+            $data = $form->getData();
             $youtube = new Youtube(array('key' => 'AIzaSyAkfKQLoHZHpfhu20alvHt0gwkJ4FPNbtg'));
-            $channelById = $youtube->getPlaylistItemsByPlaylistId($listID);
+            $requestedVideo = $data['search'];
+            $videoList = $youtube->searchVideos($requestedVideo);
             $video = array();
 
-            foreach ($channelById as $value) {
+            foreach ($videoList as $value) {
 
-                $curVideo = $value->snippet->resourceId->videoId;
+                $curVideo = $value->id->videoId;
                 $iterElement = VideoController::videoAction($curVideo);
                 array_push($video, $iterElement['full']);
 
             }
 
-            return $video;
-        }
+            return $this->render('catalog/catalog.html.twig', array(
 
-
-        /**
-         * @Route( "/search")
-         */
-        public function searchAction(Request $request)
-        {
-
-            $form = $this->createFormBuilder()
-                ->add('search', TextType::class)
-                ->getForm();
-            $form->handleRequest($request);
-
-            if ($form->isSubmitted() && $form->isValid()) {
-                $data = $form->getData();
-                $youtube = new Youtube(array('key' => 'AIzaSyAkfKQLoHZHpfhu20alvHt0gwkJ4FPNbtg'));
-                $requestedVideo = $data['search'];
-                $videoList = $youtube->searchVideos($requestedVideo);
-                $video = array();
-
-                foreach ($videoList as $value) {
-
-                    $curVideo = $value->id->videoId;
-                    $iterElement = VideoController::videoAction($curVideo);
-                    array_push($video, $iterElement['full']);
-
-                }
-
-                return $this->render('catalog/catalog.html.twig', array(
-
-                    'full' => $video
-                ));
-
-
-            }
-
-            return $this->render('catalog/search.html.twig', array(
-                'form' => $form->createView(),
+                'full' => $video
             ));
 
-        }
-
-
-        /**
-         * @Route("/default")
-         */
-
-        public function defaultQuery()
-        {
-    // $a = VideoController::videoAction("rie-hPVJ7Sw");
-            $b = VideoController::ListAction("PLuBu40P6jUCZtTMNc8Pd_AHun5AjGmOKK");
-    // var_dump($a);
-            var_dump($b);
-            return true;
 
         }
 
-        /**
-         * @Route("/chose")
-         */
-        public function temp(){
-            return $this->render('catalog/basicLanguages.html.twig');
-        }
+        return $this->render('catalog/search.html.twig', array(
+            'form' => $form->createView(),
+        ));
+
+    }
 
 
-         /**
-         * @Route("/about")
-         */
-     public function showMsg(){
+//    /**
+//     * @Route("/default")
+//     */
+//
+//    public function defaultQuery()
+//    {
+//// $a = VideoController::videoAction("rie-hPVJ7Sw");
+//        $b = VideoController::ListAction("PLuBu40P6jUCZtTMNc8Pd_AHun5AjGmOKK");
+//// var_dump($a);
+//        var_dump($b);
+//        return true;
+//
+//    }
+//
+    /**
+     * @Route("/chose")
+     */
+    public function temp(){
+        return $this->render('catalog/basicLanguages.html.twig');
+    }
 
-
-         return $this->render('catalog/about.html.twig');
-     }
+//
+//     /**
+//     * @Route("/about")
+//     */
+//     public function showMsg(){
+//
+//
+//         return $this->render('catalog/about.html.twig');
+//     }
 
 
     /**
@@ -168,7 +168,7 @@ class VideoController extends Controller
             return $this->render('catalog/about.html.twig');
         }
 
-        return $this->render('catalog/search.html.twig', array(
+        return $this->render('catalog/addVideo.html.twig', array(
             'form' => $form->createView(),
         ));
 
@@ -200,7 +200,23 @@ class VideoController extends Controller
 
     }
 
+    /**
+     * @Rest\Get("/name")
+     */
+    public function nameListAction(){
+        $names = $this->getDoctrine()->getRepository("AppBundle:CatalogTab")->findAll();
+        $response = array();
+        foreach ($names as $item){
+            $name = $item->getListName();
+            array_push($response,$name);
+        }
 
+        return $this->render('catalog/namesList.html.twig', array(
+
+            'names' => $response
+        ));
+
+    }
 
 
 
@@ -245,7 +261,7 @@ class VideoController extends Controller
             $response = $response + $video;
 
         }
-            $numbers = array_rand($response,10);
+            $numbers = array_rand($response,12);
             $randomList = array();
         foreach ($numbers as $item){
 
@@ -260,6 +276,20 @@ class VideoController extends Controller
     }
 
 
+
+    /**
+     * @Rest\Get("/playNow/{videoId}")
+     */
+    public function showMsg($videoId){
+
+        $youtube = new Youtube(array('key' => 'AIzaSyAkfKQLoHZHpfhu20alvHt0gwkJ4FPNbtg'));
+        $video = $youtube->getVideoInfo($videoId);
+
+        return $this->render('catalog/player.html.twig', array(
+
+            'full' => $video
+        ));
+    }
 
 
 

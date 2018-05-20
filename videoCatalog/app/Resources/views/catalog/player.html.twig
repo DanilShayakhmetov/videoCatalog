@@ -1,0 +1,48 @@
+{% extends 'base.html.twig' %}
+
+{% block player %}
+
+
+    <head>
+
+        <title>Tutorials</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <script src="/js/bootstrap.min.js"></script>
+        <style>
+            .size {
+                width:500px;
+                height: 185px;
+                overflow: hidden; /* Обрезаем содержимое */
+                padding: 5px; /* Поля */
+                text-overflow: ellipsis; /* Многоточие */
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+
+        <h1 class="my-4">Tutoria's
+            <small>Education video's</small>
+        </h1>
+
+        <div class="row">
+            <div class="col-sm-4"> </div>
+            <div class="col-sm-4"> <p>{{ full.snippet.title}}</p>       {% if full %}
+                    <li>{{ full.player.embedHtml|raw }}</li>
+                    <p class="size">{{ full.snippet.localized.description }}</p>
+                {% endif %}</div>
+            <div class="col-sm-4"> </div>
+        </div>
+
+        {#{% if full %}#}
+                        {#<li>{{ full.player.embedHtml|raw }}</li>#}
+        {#{% endif %}#}
+
+
+</body>
+
+{% endblock %}

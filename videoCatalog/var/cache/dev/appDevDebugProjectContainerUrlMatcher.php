@@ -127,32 +127,10 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
             return array (  '_controller' => 'AppBundle\\Controller\\VideoController::searchAction',  '_route' => 'app_video_search',);
         }
 
-        // app_video_defaultquery
-        if ('/default' === $pathinfo) {
-            return array (  '_controller' => 'AppBundle\\Controller\\VideoController::defaultQuery',  '_route' => 'app_video_defaultquery',);
-        }
-
         // app_video_temp
         if ('/chose' === $pathinfo) {
             return array (  '_controller' => 'AppBundle\\Controller\\VideoController::temp',  '_route' => 'app_video_temp',);
         }
-
-        // app_video_showmsg
-        if ('/about' === $pathinfo) {
-            return array (  '_controller' => 'AppBundle\\Controller\\VideoController::showMsg',  '_route' => 'app_video_showmsg',);
-        }
-
-        // app_video_get
-        if ('/autocat' === $pathinfo) {
-            $ret = array (  '_controller' => 'AppBundle\\Controller\\VideoController::getAction',  '_route' => 'app_video_get',);
-            if (!in_array($canonicalMethod, array('GET'))) {
-                $allow = array_merge($allow, array('GET'));
-                goto not_app_video_get;
-            }
-
-            return $ret;
-        }
-        not_app_video_get:
 
         if (0 === strpos($pathinfo, '/video')) {
             // app_video_post
@@ -181,17 +159,44 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
 
         }
 
-        // app_video_videobyname
-        if (0 === strpos($pathinfo, '/name') && preg_match('#^/name/(?P<name>[^/]++)$#sD', $pathinfo, $matches)) {
-            $ret = $this->mergeDefaults(array_replace($matches, array('_route' => 'app_video_videobyname')), array (  '_controller' => 'AppBundle\\Controller\\VideoController::videoByNameAction',));
+        elseif (0 === strpos($pathinfo, '/name')) {
+            // app_video_videobyname
+            if (preg_match('#^/name/(?P<name>[^/]++)$#sD', $pathinfo, $matches)) {
+                $ret = $this->mergeDefaults(array_replace($matches, array('_route' => 'app_video_videobyname')), array (  '_controller' => 'AppBundle\\Controller\\VideoController::videoByNameAction',));
+                if (!in_array($canonicalMethod, array('GET'))) {
+                    $allow = array_merge($allow, array('GET'));
+                    goto not_app_video_videobyname;
+                }
+
+                return $ret;
+            }
+            not_app_video_videobyname:
+
+            // app_video_namelist
+            if ('/name' === $pathinfo) {
+                $ret = array (  '_controller' => 'AppBundle\\Controller\\VideoController::nameListAction',  '_route' => 'app_video_namelist',);
+                if (!in_array($canonicalMethod, array('GET'))) {
+                    $allow = array_merge($allow, array('GET'));
+                    goto not_app_video_namelist;
+                }
+
+                return $ret;
+            }
+            not_app_video_namelist:
+
+        }
+
+        // app_video_get
+        if ('/autocat' === $pathinfo) {
+            $ret = array (  '_controller' => 'AppBundle\\Controller\\VideoController::getAction',  '_route' => 'app_video_get',);
             if (!in_array($canonicalMethod, array('GET'))) {
                 $allow = array_merge($allow, array('GET'));
-                goto not_app_video_videobyname;
+                goto not_app_video_get;
             }
 
             return $ret;
         }
-        not_app_video_videobyname:
+        not_app_video_get:
 
         // app_video_getrand
         if ('/randomList' === $pathinfo) {
@@ -204,6 +209,18 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
             return $ret;
         }
         not_app_video_getrand:
+
+        // app_video_showmsg
+        if (0 === strpos($pathinfo, '/playNow') && preg_match('#^/playNow/(?P<videoId>[^/]++)$#sD', $pathinfo, $matches)) {
+            $ret = $this->mergeDefaults(array_replace($matches, array('_route' => 'app_video_showmsg')), array (  '_controller' => 'AppBundle\\Controller\\VideoController::showMsg',));
+            if (!in_array($canonicalMethod, array('GET'))) {
+                $allow = array_merge($allow, array('GET'));
+                goto not_app_video_showmsg;
+            }
+
+            return $ret;
+        }
+        not_app_video_showmsg:
 
         if ('/' === $pathinfo && !$allow) {
             throw new Symfony\Component\Routing\Exception\NoConfigurationException();
