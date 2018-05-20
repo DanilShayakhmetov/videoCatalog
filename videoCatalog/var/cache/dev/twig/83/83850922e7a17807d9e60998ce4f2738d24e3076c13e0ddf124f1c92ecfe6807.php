@@ -83,7 +83,7 @@ class __TwigTemplate_7dad07631f8afbc5ed5821f54a94c2c9909640f33a4418120572680d0de
 
 
 
-<body>
+<body bgcolor=\"#6495ed\">
 <nav class=\"navbar-inverse\">
     <div class=\"container-fluid\">
         <div class=\"navbar-header\">
@@ -91,7 +91,7 @@ class __TwigTemplate_7dad07631f8afbc5ed5821f54a94c2c9909640f33a4418120572680d0de
 
         <ul class=\"nav navbar-nav\">
             <li class=\"active\"><a href=\"/start\">Home</a></li>
-            <li class=\"active\"><a class=\"nav-link\" href=\"/randomList\">random catalog</a></li>
+            <li class=\"active\"><a class=\"nav-link\" href=\"/randomList\">random</a></li>
             <li class=\"active\"><a class=\"nav-link\" href=\"/autocat\">video catalog</a></li>
             <li class=\"active\"><a class=\"nav-link\" href=\"/video\">upload catalog</a></li>
             <li class=\"active\"><a class=\"nav-link\" href=\"/name\">play list's</a></li>
@@ -301,7 +301,7 @@ class __TwigTemplate_7dad07631f8afbc5ed5821f54a94c2c9909640f33a4418120572680d0de
 
 
 
-<body>
+<body bgcolor=\"#6495ed\">
 <nav class=\"navbar-inverse\">
     <div class=\"container-fluid\">
         <div class=\"navbar-header\">
@@ -309,7 +309,7 @@ class __TwigTemplate_7dad07631f8afbc5ed5821f54a94c2c9909640f33a4418120572680d0de
 
         <ul class=\"nav navbar-nav\">
             <li class=\"active\"><a href=\"/start\">Home</a></li>
-            <li class=\"active\"><a class=\"nav-link\" href=\"/randomList\">random catalog</a></li>
+            <li class=\"active\"><a class=\"nav-link\" href=\"/randomList\">random</a></li>
             <li class=\"active\"><a class=\"nav-link\" href=\"/autocat\">video catalog</a></li>
             <li class=\"active\"><a class=\"nav-link\" href=\"/video\">upload catalog</a></li>
             <li class=\"active\"><a class=\"nav-link\" href=\"/name\">play list's</a></li>

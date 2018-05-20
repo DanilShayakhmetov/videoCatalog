@@ -2,38 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8db9ed7c-7ec1-455f-84e3-e48402f84409" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/FONT_PIC.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/Font2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/web/Font1.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/videoCatalog/app/Resources/views/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/app/Resources/views/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/addVideo.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/addVideo.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/catalog.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/catalog.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/namesList.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/namesList.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/player.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/player.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/search.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/search.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/src/AppBundle/Controller/VideoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/src/AppBundle/Controller/VideoController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/appDevDebugProjectContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/appDevDebugProjectContainer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/appDevDebugProjectContainer.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/appDevDebugProjectContainer.php.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/appDevDebugProjectContainer.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/appDevDebugProjectContainer.xml.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/B/D/JgPX8aqhVpBDBAiwAYaF" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/B/D/JgPX8aqhVpBDBAiwAYaF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/B/W/2PETaKNVymx9t5po2a7Z" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/B/W/2PETaKNVymx9t5po2a7Z" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/L/G/k9j28fgVmexJo6XBX-Lc" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/L/G/k9j28fgVmexJo6XBX-Lc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/M/L/oOVcQ1+opllVcr2HPzis" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/M/L/oOVcQ1+opllVcr2HPzis" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/R/K/O9yrYvheQLcyd8-yNwRk" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/R/K/O9yrYvheQLcyd8-yNwRk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/R/O/ld0xPFwh6KpUcmZRzqNO" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/R/O/ld0xPFwh6KpUcmZRzqNO" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/U/D/L6ROwYDmHFpmBNkPkEBq" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/U/D/L6ROwYDmHFpmBNkPkEBq" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/V/J/kNO21SaqP-BxbkAm6lFA" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/V/J/kNO21SaqP-BxbkAm6lFA" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/W/K/EFKkiFisZwCi-krPpbaN" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/W/K/EFKkiFisZwCi-krPpbaN" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/X/D/5qAf7ycjsufAIaLnP+N2" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/X/D/5qAf7ycjsufAIaLnP+N2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/X/Z/Mh0nMchfpcPJoyXjaRIE" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/X/Z/Mh0nMchfpcPJoyXjaRIE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/Z/O/5ioEHxTlicYtJwgSXwCC" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/Z/O/5ioEHxTlicYtJwgSXwCC" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/index.csv" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/index.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/twig/14/143848485d4e0a3c005070a2a63c3f5c9298c613fa15a004ec38adcb77a7770b.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/twig/14/143848485d4e0a3c005070a2a63c3f5c9298c613fa15a004ec38adcb77a7770b.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/twig/2a/2a06ed3cfc1c2c4bd1cd54bec0ce4d9e58c33887f2a3d053c5815c920daf2f6c.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/twig/2a/2a06ed3cfc1c2c4bd1cd54bec0ce4d9e58c33887f2a3d053c5815c920daf2f6c.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/twig/2e/2ed16ee5c9d5094fb7f4b9863559415f352ca44f93db3a108c963c886f8c9e7d.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/twig/2e/2ed16ee5c9d5094fb7f4b9863559415f352ca44f93db3a108c963c886f8c9e7d.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/twig/4d/4dbc6c7d936a800d0c048562e4020cb30990e6607f4335a0489289c572559b9f.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/twig/4d/4dbc6c7d936a800d0c048562e4020cb30990e6607f4335a0489289c572559b9f.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/twig/83/83850922e7a17807d9e60998ce4f2738d24e3076c13e0ddf124f1c92ecfe6807.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/twig/83/83850922e7a17807d9e60998ce4f2738d24e3076c13e0ddf124f1c92ecfe6807.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/twig/e0/e0e6bfa090944a8bc109c0fbf751df4b331cb01c0bfcdea884c89feb4a125a79.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/twig/e0/e0e6bfa090944a8bc109c0fbf751df4b331cb01c0bfcdea884c89feb4a125a79.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/videoCatalog/var/logs/dev.log" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/logs/dev.log" afterDir="false" />
@@ -63,6 +40,18 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="namesList.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/namesList.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="104" column="20" selection-start-line="104" selection-start-column="20" selection-end-line="104" selection-end-column="20" />
+              <folding>
+                <element signature="e#152#1195#0#HTML" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/videoCatalog/web/index.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -75,8 +64,8 @@
       <file leaf-file-name="search.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/search.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="54" selection-start-line="54" selection-end-line="55" selection-end-column="35" />
+            <state relative-caret-position="169">
+              <caret line="57" selection-start-line="57" selection-end-line="58" />
             </state>
           </provider>
         </entry>
@@ -93,11 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+            <state relative-caret-position="199">
+              <caret line="51" column="14" selection-start-line="51" selection-end-line="52" />
             </state>
           </provider>
         </entry>
@@ -105,20 +94,17 @@
       <file leaf-file-name="catalog.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/catalog.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1035">
-              <caret column="30" selection-start-column="30" selection-end-column="30" />
+            <state relative-caret-position="195">
+              <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app_dev.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/videoCatalog/web/app_dev.php">
+      <file leaf-file-name="player.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/player.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-              <folding>
-                <element signature="e#7#41#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="195">
+              <caret line="34" selection-start-line="34" selection-end-line="36" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -151,14 +137,14 @@
         <option value="$PROJECT_DIR$/videoCatalog/web/vendor/bootstrap/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/videoCatalog/web/app_dev.php" />
         <option value="$PROJECT_DIR$/videoCatalog/app/config/parameters.yml" />
-        <option value="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/namesList.html.twig" />
         <option value="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/player.html.twig" />
         <option value="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/HomePage.html.twig" />
-        <option value="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/catalog.html.twig" />
-        <option value="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/search.html.twig" />
         <option value="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/addVideo.html.twig" />
         <option value="$PROJECT_DIR$/videoCatalog/src/AppBundle/Controller/VideoController.php" />
         <option value="$PROJECT_DIR$/videoCatalog/app/Resources/views/base.html.twig" />
+        <option value="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/catalog.html.twig" />
+        <option value="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/search.html.twig" />
+        <option value="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/namesList.html.twig" />
       </list>
     </option>
   </component>
@@ -251,6 +237,47 @@
               <item name="videocat" type="b2602c69:ProjectViewProjectNode" />
               <item name="videocat" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="videocat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="videocat" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="videoCatalog" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="videocat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="videocat" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="videoCatalog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="videocat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="videocat" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="videoCatalog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="videocat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="videocat" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="videoCatalog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="videocat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="videocat" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="videoCatalog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="catalog" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="videocat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="videocat" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="videoCatalog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -304,17 +331,18 @@
       <workItem from="1526669142948" duration="3756000" />
       <workItem from="1526676992926" duration="11827000" />
       <workItem from="1526829984131" duration="903000" />
-      <workItem from="1526832042212" duration="18377000" />
+      <workItem from="1526832042212" duration="20656000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37893000" />
+    <option name="totallyTimeSpent" value="40172000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26693228" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26693228" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -323,7 +351,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.5553822" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.33073324" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.33073324" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -348,7 +376,7 @@
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917318" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.33073324" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.33073324" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -627,20 +655,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/namesList.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/player.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/videoCatalog/web/apple-touch-icon.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -670,24 +684,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/catalog.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1035">
-          <caret column="30" selection-start-column="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/HomePage.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/search.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="54" selection-start-line="54" selection-end-line="55" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -713,8 +713,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="51" column="14" selection-start-line="51" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/player.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="34" selection-start-line="34" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/catalog.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/search.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="57" selection-start-line="57" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/namesList.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="349">
-          <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+          <caret line="104" column="20" selection-start-line="104" selection-start-column="20" selection-end-line="104" selection-end-column="20" />
+          <folding>
+            <element signature="e#152#1195#0#HTML" />
+          </folding>
         </state>
       </provider>
     </entry>

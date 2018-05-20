@@ -92,6 +92,46 @@ class __TwigTemplate_5f5e081acf378ed15a5581b57a72ac47d54dc0d37d360360ad5e1ebb404
                 opacity: 1;
                 right: 0;
             }
+            /*разметка*/
+            .container {
+                position: relative;
+                text-align: center;
+                color: white;
+            }
+
+            .bottom-left {
+                position: absolute;
+                bottom: 8px;
+                left: 16px;
+            }
+
+            .top-left {
+                position: absolute;
+                top: 8px;
+                left: 16px;
+            }
+
+            .top-right {
+                position: absolute;
+                top: 8px;
+                right: 16px;
+            }
+
+            .bottom-right {
+                position: absolute;
+                bottom: 8px;
+                right: 16px;
+            }
+
+            .centered {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+
+
         </style>
     </head>
 
@@ -101,26 +141,32 @@ class __TwigTemplate_5f5e081acf378ed15a5581b57a72ac47d54dc0d37d360360ad5e1ebb404
 
 
     ";
-        // line 55
+        // line 95
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["names"]) || array_key_exists("names", $context) ? $context["names"] : (function () { throw new Twig_Error_Runtime('Variable "names" does not exist.', 55, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["names"]) || array_key_exists("names", $context) ? $context["names"] : (function () { throw new Twig_Error_Runtime('Variable "names" does not exist.', 95, $this->source); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["name"]) {
-            // line 56
+            // line 96
             echo "
     ";
-            // line 57
+            // line 97
             if ($context["name"]) {
-                // line 58
+                // line 98
                 echo "        <div class=\"col-sm-3\" style=\"background-color:white;\">
             <li>
+                <p>
+
+                </p>
+                <p>
+
+                </p>
                 <a href=\"/name/";
-                // line 60
+                // line 106
                 echo twig_escape_filter($this->env, $context["name"], "html", null, true);
                 echo "\"> <button class=\"button\"><span> ";
                 echo twig_escape_filter($this->env, $context["name"], "html", null, true);
                 echo " </span></button></a>
                   ";
-                // line 62
+                // line 108
                 echo "
             </li>
         </div>
@@ -130,7 +176,7 @@ class __TwigTemplate_5f5e081acf378ed15a5581b57a72ac47d54dc0d37d360360ad5e1ebb404
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['name'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 67
+        // line 113
         echo "
     </body>
 ";
@@ -154,7 +200,7 @@ class __TwigTemplate_5f5e081acf378ed15a5581b57a72ac47d54dc0d37d360360ad5e1ebb404
 
     public function getDebugInfo()
     {
-        return array (  134 => 67,  124 => 62,  118 => 60,  114 => 58,  112 => 57,  109 => 56,  105 => 55,  53 => 5,  44 => 4,  15 => 1,);
+        return array (  180 => 113,  170 => 108,  164 => 106,  154 => 98,  152 => 97,  149 => 96,  145 => 95,  53 => 5,  44 => 4,  15 => 1,);
     }
 
     public function getSourceContext()
@@ -205,6 +251,46 @@ class __TwigTemplate_5f5e081acf378ed15a5581b57a72ac47d54dc0d37d360360ad5e1ebb404
                 opacity: 1;
                 right: 0;
             }
+            /*разметка*/
+            .container {
+                position: relative;
+                text-align: center;
+                color: white;
+            }
+
+            .bottom-left {
+                position: absolute;
+                bottom: 8px;
+                left: 16px;
+            }
+
+            .top-left {
+                position: absolute;
+                top: 8px;
+                left: 16px;
+            }
+
+            .top-right {
+                position: absolute;
+                top: 8px;
+                right: 16px;
+            }
+
+            .bottom-right {
+                position: absolute;
+                bottom: 8px;
+                right: 16px;
+            }
+
+            .centered {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+
+
         </style>
     </head>
 
@@ -218,6 +304,12 @@ class __TwigTemplate_5f5e081acf378ed15a5581b57a72ac47d54dc0d37d360360ad5e1ebb404
     {% if name %}
         <div class=\"col-sm-3\" style=\"background-color:white;\">
             <li>
+                <p>
+
+                </p>
+                <p>
+
+                </p>
                 <a href=\"/name/{{name}}\"> <button class=\"button\"><span> {{ name }} </span></button></a>
                   {#<a href=\"/name/{{name}}\">{{ name }}</a>#}
 
