@@ -122,9 +122,31 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
         }
         not_homepage:
 
-        // app_video_search
-        if ('/search' === $pathinfo) {
-            return array (  '_controller' => 'AppBundle\\Controller\\VideoController::searchAction',  '_route' => 'app_video_search',);
+        if (0 === strpos($pathinfo, '/start')) {
+            // app_video_search
+            if ('/start' === $pathinfo) {
+                $ret = array (  '_controller' => 'AppBundle\\Controller\\VideoController::searchAction',  '_route' => 'app_video_search',);
+                if (!in_array($requestMethod, array('POST'))) {
+                    $allow = array_merge($allow, array('POST'));
+                    goto not_app_video_search;
+                }
+
+                return $ret;
+            }
+            not_app_video_search:
+
+            // app_video_search_1
+            if ('/start' === $pathinfo) {
+                $ret = array (  '_controller' => 'AppBundle\\Controller\\VideoController::searchAction',  '_route' => 'app_video_search_1',);
+                if (!in_array($canonicalMethod, array('GET'))) {
+                    $allow = array_merge($allow, array('GET'));
+                    goto not_app_video_search_1;
+                }
+
+                return $ret;
+            }
+            not_app_video_search_1:
+
         }
 
         // app_video_temp

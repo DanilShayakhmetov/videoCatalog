@@ -63,30 +63,73 @@ class __TwigTemplate_acee8e1ca8626c9963fd39f83786708e51995f5eafa27cd9e9603fe30f1
     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
     <link rel=\"stylesheet\" href=\"/css/bootstrap.min.css\">
     <script src=\"/js/bootstrap.min.js\"></script>
+    <style>
+        .container {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+        .bottom-left {
+            position: absolute;
+            bottom: 8px;
+            left: 16px;
+        }
+
+        .top-left {
+            position: absolute;
+            top: 8px;
+            left: 16px;
+        }
+
+        .top-right {
+            position: absolute;
+            top: 8px;
+            right: 16px;
+        }
+
+        .bottom-right {
+            position: absolute;
+            bottom: 8px;
+            right: 16px;
+        }
+
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
 </head>
 
 <body>
-<div class=\"form-group\">
+
+<p><img src=\"Font2.jpg\" width=\"100%\"
+        height=\"100%\" alt=\"__\"></p>
+
+<div class=\"centered\">    <div class=\"form-group\">
 
 
     ";
-        // line 18
-        echo         $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->renderBlock((isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new Twig_Error_Runtime('Variable "form" does not exist.', 18, $this->source); })()), 'form_start');
+        // line 60
+        echo         $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->renderBlock((isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new Twig_Error_Runtime('Variable "form" does not exist.', 60, $this->source); })()), 'form_start');
         echo "
     ";
-        // line 19
-        echo $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->searchAndRenderBlock((isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new Twig_Error_Runtime('Variable "form" does not exist.', 19, $this->source); })()), 'widget');
+        // line 61
+        echo $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->searchAndRenderBlock((isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new Twig_Error_Runtime('Variable "form" does not exist.', 61, $this->source); })()), 'widget');
         echo "
     <div class=\"form-group\">
         <div class=\"col-sm-offset-2 col-sm-10\">
-            <button type=\"submit\" class=\"btn btn-default\">Search</button>
+            <button type=\"submit\" class=\"btn btn-dark\">add</button>
         </div>
     </div>
     ";
-        // line 26
+        // line 68
         echo "    ";
-        echo         $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->renderBlock((isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new Twig_Error_Runtime('Variable "form" does not exist.', 26, $this->source); })()), 'form_end');
+        echo         $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->renderBlock((isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new Twig_Error_Runtime('Variable "form" does not exist.', 68, $this->source); })()), 'form_end');
         echo "
+</div>
 </div>
 
 </body>
@@ -111,7 +154,7 @@ class __TwigTemplate_acee8e1ca8626c9963fd39f83786708e51995f5eafa27cd9e9603fe30f1
 
     public function getDebugInfo()
     {
-        return array (  87 => 26,  78 => 19,  74 => 18,  59 => 5,  56 => 4,  53 => 3,  44 => 2,  15 => 1,);
+        return array (  129 => 68,  120 => 61,  116 => 60,  59 => 5,  56 => 4,  53 => 3,  44 => 2,  15 => 1,);
     }
 
     public function getSourceContext()
@@ -127,21 +170,64 @@ class __TwigTemplate_acee8e1ca8626c9963fd39f83786708e51995f5eafa27cd9e9603fe30f1
     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
     <link rel=\"stylesheet\" href=\"/css/bootstrap.min.css\">
     <script src=\"/js/bootstrap.min.js\"></script>
+    <style>
+        .container {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+        .bottom-left {
+            position: absolute;
+            bottom: 8px;
+            left: 16px;
+        }
+
+        .top-left {
+            position: absolute;
+            top: 8px;
+            left: 16px;
+        }
+
+        .top-right {
+            position: absolute;
+            top: 8px;
+            right: 16px;
+        }
+
+        .bottom-right {
+            position: absolute;
+            bottom: 8px;
+            right: 16px;
+        }
+
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
 </head>
 
 <body>
-<div class=\"form-group\">
+
+<p><img src=\"Font2.jpg\" width=\"100%\"
+        height=\"100%\" alt=\"__\"></p>
+
+<div class=\"centered\">    <div class=\"form-group\">
 
 
     {{ form_start(form) }}
     {{ form_widget(form) }}
     <div class=\"form-group\">
         <div class=\"col-sm-offset-2 col-sm-10\">
-            <button type=\"submit\" class=\"btn btn-default\">Search</button>
+            <button type=\"submit\" class=\"btn btn-dark\">add</button>
         </div>
     </div>
     {#<button type=\"submit\" class=\"btn btn-default\">Submit</button>#}
     {{ form_end(form) }}
+</div>
 </div>
 
 </body>

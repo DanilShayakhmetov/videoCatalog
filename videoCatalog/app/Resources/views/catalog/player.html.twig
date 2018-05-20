@@ -13,7 +13,14 @@
         <style>
             .size {
                 width:500px;
-                height: 185px;
+                height: 100px;
+                overflow: hidden; /* Обрезаем содержимое */
+                padding: 5px; /* Поля */
+                text-overflow: ellipsis; /* Многоточие */
+            }
+            .Titlesize {
+                width:500px;
+                height: 50px;
                 overflow: hidden; /* Обрезаем содержимое */
                 padding: 5px; /* Поля */
                 text-overflow: ellipsis; /* Многоточие */
@@ -29,11 +36,18 @@
             <small>Education video's</small>
         </h1>
 
+        {% if full %}
+
         <div class="row">
+
             <div class="col-sm-4"> </div>
-            <div class="col-sm-4"> <p>{{ full.snippet.title}}</p>       {% if full %}
+            <div class="col-sm-4">
+
+                <p  class="Titlesize"><kbd>{{ full.snippet.title}}</kbd></p></a></h5>
+                {#<p>{{ full.snippet.title}}</p>#}
+
                     <li>{{ full.player.embedHtml|raw }}</li>
-                    <p class="size">{{ full.snippet.localized.description }}</p>
+                    <p <p class="size">>{{ full.snippet.localized.description }}</p>
                 {% endif %}</div>
             <div class="col-sm-4"> </div>
         </div>

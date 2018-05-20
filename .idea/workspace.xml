@@ -2,724 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8db9ed7c-7ec1-455f-84e3-e48402f84409" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/namesList.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/player.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/.babelrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/.github/CONTRIBUTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/.github/ISSUE_TEMPLATE/bug.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/.github/ISSUE_TEMPLATE/feature.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/.github/SUPPORT.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/.stylelintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/.stylelintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/CNAME" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/CODE_OF_CONDUCT.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/Gemfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/Gemfile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/_config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/_data/breakpoints.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/_data/browser-bugs.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/_data/browser-features.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/_data/colors.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/_data/examples.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/_data/grays.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/_data/nav.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/_data/theme-colors.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/_data/translations.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/_includes/ads.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/_includes/bugify.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/_includes/callout-danger-async-methods.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/_includes/callout-info-mediaqueries-breakpoints.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/_includes/callout-warning-color-assistive-technologies.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/_includes/callout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/_includes/docs-navbar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/_includes/docs-sidebar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/_includes/example.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/_includes/favicons.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/_includes/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/_includes/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/_includes/icons/bootstrap.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/_includes/icons/download.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/_includes/icons/github.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/_includes/icons/import.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/_includes/icons/lightning.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/_includes/icons/menu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/_includes/icons/slack.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/_includes/icons/twitter.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/_includes/scripts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/_includes/skippy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/_includes/social.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/_layouts/default.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/_layouts/docs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/_layouts/examples.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/_layouts/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/_layouts/redirect.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/_layouts/simple.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/brand/bootstrap-outline.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/brand/bootstrap-punchout.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/brand/bootstrap-social-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/brand/bootstrap-social.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/brand/bootstrap-solid.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/css/docs.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/css/docs.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/img/bootstrap-stack.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/img/bootstrap-themes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/img/favicons/android-chrome-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/img/favicons/android-chrome-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/img/favicons/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/img/favicons/browserconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/img/favicons/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/img/favicons/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/img/favicons/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/img/favicons/mstile-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/img/favicons/mstile-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/img/favicons/mstile-310x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/img/favicons/mstile-310x310.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/img/favicons/mstile-70x70.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/img/favicons/safari-pinned-tab.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/js/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/js/docs.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/js/src/application.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/js/src/ie-emulation-modes-warning.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/js/src/pwa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/js/src/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/js/vendor/anchor.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/js/vendor/clipboard.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/js/vendor/holder.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/js/vendor/jquery-slim.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/js/vendor/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/scss/_ads.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/scss/_algolia.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/scss/_anchor.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/scss/_brand.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/scss/_browser-bugs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/scss/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/scss/_callouts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/scss/_clipboard-js.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/scss/_colors.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/scss/_component-examples.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/scss/_content.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/scss/_examples.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/scss/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/scss/_masthead.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/scss/_nav.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/scss/_sidebar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/scss/_skiplink.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/scss/_syntax.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/assets/scss/docs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/build/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/build/.htmllintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/build/change-version.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/build/gcp-key.json.enc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/build/generate-sri.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/build/lint-vars.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/build/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/build/rollup.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/build/sauce_browsers.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/build/saucelabs-unit-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/build/ship.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/build/upload-preview.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/build/vnu-jar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/build/workbox.config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/build/workbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/dist/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/dist/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/dist/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/dist/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/dist/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/dist/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/dist/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/dist/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/dist/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/dist/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/dist/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/dist/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/dist/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/dist/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/about/brand.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/about/license.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/about/overview.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/about/translations.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/browser-bugs.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/components/alerts.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/components/badge.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/components/breadcrumb.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/components/button-group.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/components/buttons.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/components/card.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/components/carousel.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/components/collapse.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/components/dropdowns.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/components/forms.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/components/input-group.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/components/jumbotron.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/components/list-group.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/components/modal.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/components/navbar.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/components/navs.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/components/pagination.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/components/popovers.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/components/progress.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/components/scrollspy.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/components/tooltips.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/content/code.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/content/figures.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/content/images.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/content/reboot.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/content/tables.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/content/typography.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/.stylelintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/album/album.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/album/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/blog/blog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/blog/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/carousel/carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/carousel/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/checkout/form-validation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/checkout/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/cover/cover.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/cover/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/dashboard/dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/dashboard/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/floating-labels/floating-labels.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/floating-labels/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/grid/grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/grid/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/jumbotron/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/jumbotron/jumbotron.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/navbar-bottom/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/navbar-fixed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/navbar-fixed/navbar-top-fixed.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/navbar-static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/navbar-static/navbar-top.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/navbars/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/navbars/navbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/offcanvas/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/offcanvas/offcanvas.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/offcanvas/offcanvas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/pricing/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/pricing/pricing.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/product/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/product/product.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/screenshots/album.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/screenshots/blog.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/screenshots/carousel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/screenshots/checkout.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/screenshots/cover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/screenshots/dashboard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/screenshots/floating-labels.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/screenshots/grid.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/screenshots/jumbotron.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/screenshots/navbar-bottom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/screenshots/navbar-fixed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/screenshots/navbar-static.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/screenshots/navbars.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/screenshots/offcanvas.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/screenshots/pricing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/screenshots/product.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/screenshots/sign-in.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/screenshots/starter-template.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/screenshots/sticky-footer-navbar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/screenshots/sticky-footer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/sign-in/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/sign-in/signin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/starter-template/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/starter-template/starter-template.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/sticky-footer-navbar/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/sticky-footer-navbar/sticky-footer-navbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/sticky-footer/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/sticky-footer/sticky-footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/tooltip-viewport/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/tooltip-viewport/tooltip-viewport.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/examples/tooltip-viewport/tooltip-viewport.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/extend/approach.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/extend/icons.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/extend/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/getting-started/accessibility.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/getting-started/best-practices.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/getting-started/browsers-devices.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/getting-started/build-tools.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/getting-started/contents.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/getting-started/download.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/getting-started/introduction.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/getting-started/javascript.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/getting-started/theming.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/getting-started/webpack.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/layout/grid.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/layout/media-object.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/layout/overview.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/layout/utilities-for-layout.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/migration.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/utilities/borders.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/utilities/clearfix.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/utilities/close-icon.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/utilities/colors.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/utilities/display.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/utilities/embed.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/utilities/flex.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/utilities/float.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/utilities/image-replacement.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/utilities/position.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/utilities/screenreaders.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/utilities/shadows.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/utilities/sizing.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/utilities/spacing.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/utilities/text.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/utilities/vertical-align.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/docs/4.1/utilities/visibility.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/dist/alert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/dist/alert.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/dist/button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/dist/button.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/dist/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/dist/carousel.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/dist/collapse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/dist/collapse.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/dist/dropdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/dist/dropdown.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/dist/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/dist/index.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/dist/modal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/dist/modal.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/dist/popover.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/dist/popover.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/dist/scrollspy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/dist/scrollspy.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/dist/tab.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/dist/tab.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/dist/tooltip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/dist/tooltip.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/dist/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/dist/util.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/src/alert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/src/button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/src/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/src/collapse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/src/dropdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/src/modal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/src/popover.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/src/scrollspy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/src/tab.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/src/tooltip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/src/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/tests/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/tests/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/tests/karma-bundle.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/tests/karma.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/tests/unit/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/tests/unit/alert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/tests/unit/button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/tests/unit/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/tests/unit/collapse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/tests/unit/dropdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/tests/unit/modal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/tests/unit/popover.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/tests/unit/scrollspy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/tests/unit/tab.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/tests/unit/tooltip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/tests/unit/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/tests/visual/alert.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/tests/visual/button.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/tests/visual/carousel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/tests/visual/collapse.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/tests/visual/dropdown.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/tests/visual/modal.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/tests/visual/popover.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/tests/visual/scrollspy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/tests/visual/tab.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/tests/visual/tooltip.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/nuget/MyGet.ps1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/nuget/bootstrap.nuspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/nuget/bootstrap.sass.nuspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/package.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/sache.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/_alert.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/_badge.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/_breadcrumb.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/_button-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/_card.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/_carousel.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/_close.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/_code.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/_custom-forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/_dropdown.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/_forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/_functions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/_grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/_images.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/_input-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/_jumbotron.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/_list-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/_media.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/_modal.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/_nav.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/_navbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/_pagination.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/_popover.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/_print.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/_progress.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/_reboot.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/_root.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/_tables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/_tooltip.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/_transitions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/_type.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/_utilities.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/bootstrap-grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/bootstrap-reboot.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/bootstrap.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/mixins/_alert.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/mixins/_background-variant.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/mixins/_badge.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/mixins/_border-radius.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/mixins/_box-shadow.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/mixins/_breakpoints.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/mixins/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/mixins/_caret.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/mixins/_clearfix.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/mixins/_float.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/mixins/_forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/mixins/_gradients.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/mixins/_grid-framework.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/mixins/_grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/mixins/_hover.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/mixins/_image.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/mixins/_list-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/mixins/_lists.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/mixins/_nav-divider.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/mixins/_pagination.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/mixins/_reset-text.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/mixins/_resize.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/mixins/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/mixins/_size.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/mixins/_table-row.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/mixins/_text-emphasis.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/mixins/_text-hide.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/mixins/_text-truncate.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/mixins/_transition.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/mixins/_visibility.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/utilities/_align.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/utilities/_background.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/utilities/_borders.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/utilities/_clearfix.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/utilities/_display.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/utilities/_embed.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/utilities/_flex.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/utilities/_float.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/utilities/_position.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/utilities/_screenreaders.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/utilities/_shadows.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/utilities/_sizing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/utilities/_spacing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/utilities/_text.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/scss/utilities/_visibility.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/bootstrap-4/sw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/css/3-col-portfolio.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/gulpfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videoCatalog/web/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/web/FONT_PIC.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoCatalog/web/Font2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/videoCatalog/app/Resources/views/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/app/Resources/views/base.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/addVideo.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/addVideo.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/catalog.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/catalog.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/def.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/def.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/namesList.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/namesList.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/player.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/player.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/search.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/search.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/videoCatalog/src/AppBundle/Controller/VideoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/src/AppBundle/Controller/VideoController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/appDevDebugProjectContainer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getAnnotations_CacheService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getAnnotations_CacheWarmerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getArgumentResolver_DefaultService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getArgumentResolver_RequestAttributeService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getArgumentResolver_RequestService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getArgumentResolver_ServiceService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getArgumentResolver_SessionService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getArgumentResolver_VariadicService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getCacheClearerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getCacheWarmerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getCache_DefaultClearerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getCache_GlobalClearerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getCache_SystemClearerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getConfig_Resource_SelfCheckingResourceCheckerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getConsole_CommandLoaderService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getConsole_Command_AboutService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getConsole_Command_AssetsInstallService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getConsole_Command_CacheClearService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getConsole_Command_CachePoolClearService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getConsole_Command_CachePoolPruneService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getConsole_Command_CacheWarmupService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getConsole_Command_ConfigDebugService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getConsole_Command_ConfigDumpReferenceService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getConsole_Command_ContainerDebugService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getConsole_Command_DebugAutowiringService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getConsole_Command_EventDispatcherDebugService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getConsole_Command_FormDebugService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getConsole_Command_RouterDebugService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getConsole_Command_RouterMatchService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getConsole_Command_XliffLintService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getConsole_Command_YamlLintService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getConsole_ErrorListenerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDebug_DumpListenerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDebug_FileLinkFormatter_UrlFormatService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDefaultControllerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDependencyInjection_Config_ContainerParametersResourceCheckerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDeprecated_Form_RegistryService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDeprecated_Form_Registry_CsrfService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrineCache_ContainsCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrineCache_DeleteCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrineCache_FlushCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrineCache_Providers_Doctrine_Orm_DefaultMetadataCacheService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrineCache_Providers_Doctrine_Orm_DefaultQueryCacheService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrineCache_Providers_Doctrine_Orm_DefaultResultCacheService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrineCache_StatsCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_CacheClearMetadataCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_CacheClearQueryCacheCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_CacheClearResultCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_CacheCollectionRegionCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_ClearEntityRegionCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_ClearQueryRegionCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_DatabaseCreateCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_DatabaseDropCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_DatabaseImportCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_Dbal_ConnectionFactoryService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_Dbal_DefaultConnectionService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_EnsureProductionSettingsCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_GenerateEntitiesCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_MappingConvertCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_MappingImportCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_MappingInfoCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_Orm_DefaultEntityListenerResolverService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_Orm_DefaultEntityManagerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_Orm_DefaultEntityManager_PropertyInfoExtractorService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_Orm_DefaultListeners_AttachEntityListenersService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_Orm_DefaultManagerConfiguratorService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_Orm_ProxyCacheWarmerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_Orm_Validator_UniqueService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_QueryDqlCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_QuerySqlCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_SchemaCreateCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_SchemaDropCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_SchemaUpdateCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getDoctrine_SchemaValidateCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getFileLocatorService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getFilesystemService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_FactoryService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_RegistryService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_ResolvedTypeFactoryService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_ServerParamsService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_TypeExtension_CsrfService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_TypeExtension_Form_DataCollectorService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_TypeExtension_Form_HttpFoundationService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_TypeExtension_Form_ValidatorService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_TypeExtension_Repeated_ValidatorService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_TypeExtension_Submit_ValidatorService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_TypeExtension_Upload_ValidatorService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_TypeGuesser_DoctrineService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_TypeGuesser_ValidatorService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_BirthdayService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_ButtonService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_CheckboxService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_ChoiceService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_CollectionService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_CountryService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_CurrencyService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_DateService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_DatetimeService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_EmailService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_EntityService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_FileService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_FormService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_HiddenService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_IntegerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_LanguageService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_LocaleService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_MoneyService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_NumberService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_PasswordService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_PercentService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_RadioService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_RangeService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_RepeatedService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_ResetService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_SearchService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_SubmitService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_TextService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_TextareaService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_TimeService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_TimezoneService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getForm_Type_UrlService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getFosRest_Decoder_JsonService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getFosRest_Decoder_JsontoformService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getFosRest_Decoder_XmlService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getFosRest_InflectorService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getFosRest_Normalizer_CamelKeysService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getFosRest_Normalizer_CamelKeysWithLeadingUnderscoreService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getFosRest_SerializerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getFosRest_Serializer_JmsHandlerRegistry_InnerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getFosRest_ViewResponseListenerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getFragment_HandlerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getFragment_Renderer_HincludeService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getFragment_Renderer_InlineService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getHttpExceptionListenerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getJmsSerializerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getJmsSerializer_AccessorStrategyService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getJmsSerializer_ArrayCollectionHandlerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getJmsSerializer_ConstraintViolationHandlerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getJmsSerializer_DatetimeHandlerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getJmsSerializer_DeserializationContextFactoryService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getJmsSerializer_DoctrineProxySubscriberService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getJmsSerializer_ExpressionEvaluatorService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getJmsSerializer_FormErrorHandlerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getJmsSerializer_HandlerRegistryService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getJmsSerializer_JsonDeserializationVisitorService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getJmsSerializer_JsonSerializationVisitorService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getJmsSerializer_MetadataDriverService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getJmsSerializer_NamingStrategyService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getJmsSerializer_ObjectConstructorService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getJmsSerializer_PhpCollectionHandlerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getJmsSerializer_SerializationContextFactoryService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getJmsSerializer_StopwatchSubscriberService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getJmsSerializer_Templating_Helper_SerializerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getJmsSerializer_TwigExtension_SerializerRuntimeHelperService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getJmsSerializer_UnserializeObjectConstructorService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getJmsSerializer_XmlDeserializationVisitorService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getJmsSerializer_XmlSerializationVisitorService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getJmsSerializer_YamlSerializationVisitorService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getKernel_ClassCache_CacheWarmerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getMonolog_Handler_NullInternalService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getMonolog_Logger_ConsoleService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getMonolog_Logger_DoctrineService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getMonolog_Logger_SecurityService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getPropertyAccessorService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getRedirectControllerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getRouter_CacheWarmerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getRouting_LoaderService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSecurity_AccessListenerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSecurity_AccessMapService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSecurity_Access_AuthenticatedVoterService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSecurity_Access_ExpressionVoterService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSecurity_Access_SimpleRoleVoterService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSecurity_AuthenticationUtilsService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSecurity_Authentication_GuardHandlerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSecurity_Authentication_Listener_Anonymous_MainService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSecurity_Authentication_Provider_Anonymous_MainService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSecurity_ChannelListenerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSecurity_Command_UserPasswordEncoderService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSecurity_ContextListener_0Service.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSecurity_Csrf_TokenManagerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSecurity_EncoderFactoryService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSecurity_Firewall_Map_Context_DevService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSecurity_Firewall_Map_Context_MainService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSecurity_PasswordEncoderService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSecurity_RequestMatcher_Zfhj2lwService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSecurity_UserValueResolverService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSecurity_User_Provider_Concrete_InMemoryService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSecurity_Validator_UserPasswordService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSensioDistribution_SecurityCheckerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSensioDistribution_SecurityChecker_CommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getServiceLocator_Sr6ctxeService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getServicesResetterService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSessionService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSession_HandlerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSession_Storage_FilesystemService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSession_Storage_MetadataBagService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSession_Storage_NativeService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSession_Storage_PhpBridgeService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSwiftmailer_EmailSender_ListenerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSwiftmailer_Mailer_DefaultService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSwiftmailer_Mailer_Default_Plugin_MessageloggerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSwiftmailer_Mailer_Default_SpoolService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSwiftmailer_Mailer_Default_TransportService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSwiftmailer_Mailer_Default_Transport_EventdispatcherService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getSwiftmailer_Mailer_Default_Transport_RealService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getTemplateControllerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getTemplating_Helper_LogoutUrlService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getTemplating_Helper_SecurityService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getTwig_CacheWarmerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getTwig_Command_DebugService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getTwig_Command_LintService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getTwig_Controller_ExceptionService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getTwig_Controller_PreviewErrorService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getTwig_ExceptionListenerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getTwig_Form_RendererService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getTwig_Runtime_HttpkernelService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getTwig_TemplateCacheWarmerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getTwig_Translation_ExtractorService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getValidator_EmailService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getValidator_ExpressionService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getValidator_Mapping_CacheWarmerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getVarDumper_CliDumperService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getVideoControllerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getViewHandlerInterfaceService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getWebProfiler_Controller_ExceptionService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getWebProfiler_Controller_ProfilerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getWebProfiler_Controller_RouterService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getWebServer_Command_ServerLogService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getWebServer_Command_ServerRunService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getWebServer_Command_ServerStartService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getWebServer_Command_ServerStatusService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/getWebServer_Command_ServerStopService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/ContainerFurxfuq/removed-ids.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/appDevDebugProjectContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/appDevDebugProjectContainer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/appDevDebugProjectContainer.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/appDevDebugProjectContainer.php.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/appDevDebugProjectContainer.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/appDevDebugProjectContainer.xml.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/B/B/KA2UHv0K1V1Aq6Pv9nfD" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/B/B/KA2UHv0K1V1Aq6Pv9nfD" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/B/D/JgPX8aqhVpBDBAiwAYaF" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/B/D/JgPX8aqhVpBDBAiwAYaF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/B/W/2PETaKNVymx9t5po2a7Z" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/B/W/2PETaKNVymx9t5po2a7Z" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/L/G/k9j28fgVmexJo6XBX-Lc" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/L/G/k9j28fgVmexJo6XBX-Lc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/M/L/oOVcQ1+opllVcr2HPzis" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/M/L/oOVcQ1+opllVcr2HPzis" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/O/Y/4VEO7QMHJBF9V+nHS1jf" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/O/Y/4VEO7QMHJBF9V+nHS1jf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/R/K/O9yrYvheQLcyd8-yNwRk" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/R/K/O9yrYvheQLcyd8-yNwRk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/R/O/ld0xPFwh6KpUcmZRzqNO" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/R/O/ld0xPFwh6KpUcmZRzqNO" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/U/D/L6ROwYDmHFpmBNkPkEBq" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/U/D/L6ROwYDmHFpmBNkPkEBq" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/V/J/kNO21SaqP-BxbkAm6lFA" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/V/J/kNO21SaqP-BxbkAm6lFA" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/W/K/EFKkiFisZwCi-krPpbaN" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/W/K/EFKkiFisZwCi-krPpbaN" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/X/D/5qAf7ycjsufAIaLnP+N2" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/X/D/5qAf7ycjsufAIaLnP+N2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/X/Z/Mh0nMchfpcPJoyXjaRIE" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/X/Z/Mh0nMchfpcPJoyXjaRIE" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/Z/O/5ioEHxTlicYtJwgSXwCC" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/pools/yDAOnUCwd4/Z/O/5ioEHxTlicYtJwgSXwCC" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/index.csv" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/profiler/index.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/twig/14/143848485d4e0a3c005070a2a63c3f5c9298c613fa15a004ec38adcb77a7770b.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/twig/14/143848485d4e0a3c005070a2a63c3f5c9298c613fa15a004ec38adcb77a7770b.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/twig/2a/2a06ed3cfc1c2c4bd1cd54bec0ce4d9e58c33887f2a3d053c5815c920daf2f6c.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/twig/2a/2a06ed3cfc1c2c4bd1cd54bec0ce4d9e58c33887f2a3d053c5815c920daf2f6c.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/twig/2e/2ed16ee5c9d5094fb7f4b9863559415f352ca44f93db3a108c963c886f8c9e7d.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/twig/2e/2ed16ee5c9d5094fb7f4b9863559415f352ca44f93db3a108c963c886f8c9e7d.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/twig/4d/4dbc6c7d936a800d0c048562e4020cb30990e6607f4335a0489289c572559b9f.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/twig/4d/4dbc6c7d936a800d0c048562e4020cb30990e6607f4335a0489289c572559b9f.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/twig/83/83850922e7a17807d9e60998ce4f2738d24e3076c13e0ddf124f1c92ecfe6807.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/twig/83/83850922e7a17807d9e60998ce4f2738d24e3076c13e0ddf124f1c92ecfe6807.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/cache/dev/twig/e0/e0e6bfa090944a8bc109c0fbf751df4b331cb01c0bfcdea884c89feb4a125a79.php" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/cache/dev/twig/e0/e0e6bfa090944a8bc109c0fbf751df4b331cb01c0bfcdea884c89feb4a125a79.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/videoCatalog/var/logs/dev.log" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/logs/dev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/sessions/dev/sess_272bd1b9a81a8d92c31b77117e02889c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/sessions/dev/sess_383b40618180b9d28f54a08974a79b19" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/sessions/dev/sess_3bcedd093d4558ec74ad0c73e8338f61" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/sessions/dev/sess_496ac8cdebd9efb5396a15a45bbb4e21" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/sessions/dev/sess_611b3aeec89d7cb49551f918f12d2e95" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/sessions/dev/sess_69da8096629f3c6e89c7fb87f43414a2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/sessions/dev/sess_76513946abd7ebef2c1426b576c10318" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/sessions/dev/sess_9f61a8e848c1035db9489b1bf00db47a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/sessions/dev/sess_aon57b56aet3o9dp3jd0qcnbi7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/sessions/dev/sess_c8r3bpmrcfj9otid4360kf2rv1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/var/sessions/dev/sess_d4b041ac3bd9eee72b2e8a296bb049fb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoCatalog/web/basic.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoCatalog/var/sessions/dev/sess_af7da53e8ee0a3d575046b0c36c85ace" beforeDir="false" afterPath="$PROJECT_DIR$/videoCatalog/var/sessions/dev/sess_af7da53e8ee0a3d575046b0c36c85ace" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -736,8 +54,8 @@
       <file leaf-file-name="VideoController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/videoCatalog/src/AppBundle/Controller/VideoController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="209" column="41" selection-start-line="209" selection-start-column="41" selection-end-line="209" selection-end-column="41" />
+            <state relative-caret-position="92">
+              <caret line="70" column="25" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="25" />
               <folding>
                 <element signature="e#160#192#0#PHP" expanded="true" />
               </folding>
@@ -745,33 +63,50 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/videoCatalog/web/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="75" column="14" selection-start-line="75" selection-start-column="14" selection-end-line="75" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="search.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/search.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="29" selection-end-column="14" />
+            <state relative-caret-position="137">
+              <caret line="54" selection-start-line="54" selection-end-line="55" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="player.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/player.html.twig">
+      <file leaf-file-name="addVideo.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/addVideo.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+            <state relative-caret-position="240">
+              <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+              <folding>
+                <element signature="e#443#1190#0#HTML" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="catalog.html.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/base.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="catalog.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/catalog.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="110" column="68" lean-forward="true" selection-start-line="110" selection-start-column="68" selection-end-line="110" selection-end-column="68" />
-              <folding>
-                <element signature="e#2659#2690#0#HTML" expanded="true" />
-                <element signature="e#2714#2735#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="-1035">
+              <caret column="30" selection-start-column="30" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -788,22 +123,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/base.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1005">
-              <caret line="127" column="11" selection-start-line="127" selection-start-column="11" selection-end-line="127" selection-end-column="11" />
-            </state>
-          </provider>
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/videoCatalog/web/config.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="def.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/videoCatalog/def.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
-            </state>
-          </provider>
+      <file leaf-file-name="G6JmGRlCG1U.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/videoCatalog/web/G6JmGRlCG1U.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -818,18 +145,20 @@
         <option value="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/basicLanguages.html.twig" />
         <option value="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/TestCatalog.html.twig" />
         <option value="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/nameList.html.twig" />
-        <option value="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/namesList.html.twig" />
         <option value="$PROJECT_DIR$/videoCatalog/def.php" />
         <option value="$PROJECT_DIR$/videoCatalog/web/index.html" />
         <option value="$PROJECT_DIR$/videoCatalog/web/vendor/bootstrap/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/videoCatalog/web/vendor/bootstrap/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/videoCatalog/web/app_dev.php" />
         <option value="$PROJECT_DIR$/videoCatalog/app/config/parameters.yml" />
-        <option value="$PROJECT_DIR$/videoCatalog/app/Resources/views/base.html.twig" />
+        <option value="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/namesList.html.twig" />
+        <option value="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/player.html.twig" />
+        <option value="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/HomePage.html.twig" />
+        <option value="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/catalog.html.twig" />
+        <option value="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/search.html.twig" />
         <option value="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/addVideo.html.twig" />
         <option value="$PROJECT_DIR$/videoCatalog/src/AppBundle/Controller/VideoController.php" />
-        <option value="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/player.html.twig" />
-        <option value="$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/catalog.html.twig" />
+        <option value="$PROJECT_DIR$/videoCatalog/app/Resources/views/base.html.twig" />
       </list>
     </option>
   </component>
@@ -922,68 +251,6 @@
               <item name="videocat" type="b2602c69:ProjectViewProjectNode" />
               <item name="videocat" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="videocat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="videocat" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="videoCatalog" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="videocat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="videocat" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="videoCatalog" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="videocat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="videocat" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="videoCatalog" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="videocat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="videocat" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="videoCatalog" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="videocat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="videocat" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="videoCatalog" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="catalog" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="videocat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="videocat" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="videoCatalog" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="videocat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="videocat" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="videoCatalog" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="videocat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="videocat" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="videoCatalog" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="videocat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="videocat" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="videoCatalog" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -1037,27 +304,26 @@
       <workItem from="1526669142948" duration="3756000" />
       <workItem from="1526676992926" duration="11827000" />
       <workItem from="1526829984131" duration="903000" />
-      <workItem from="1526832042212" duration="9090000" />
+      <workItem from="1526832042212" duration="18377000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28606000" />
+    <option name="totallyTimeSpent" value="37893000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26693228" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1622465" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5553822" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.33073324" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.33073324" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1071,7 +337,7 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.17316693" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5553822" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26693228" />
@@ -1097,45 +363,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/basicLanguages.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile_NGINX.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/catalog.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-          <folding>
-            <element signature="e#2659#2690#0#HTML" expanded="true" />
-            <element signature="e#2714#2735#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/videoCatalog/vendor/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/videoCatalog/web/app_dev.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1335,13 +562,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/namesList.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Dockerfile_NGINX.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1390,37 +610,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/search.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="29" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/videoCatalog/src/AppBundle/Controller/VideoController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="209" column="41" selection-start-line="209" selection-start-column="41" selection-end-line="209" selection-end-column="41" />
-          <folding>
-            <element signature="e#160#192#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/addVideo.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/videoCatalog/web/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="87" selection-start-line="64" selection-start-column="5" selection-end-line="87" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/basicLanguages.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1428,22 +617,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/base.html.twig">
+    <entry file="file://$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/src/tab.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videoCatalog/def.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
-          <caret line="127" column="11" selection-start-line="127" selection-start-column="11" selection-end-line="127" selection-end-column="11" />
+        <state relative-caret-position="170">
+          <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/namesList.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/player.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+        <state relative-caret-position="135">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/videoCatalog/web/bootstrap-4/js/src/tab.js">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/videoCatalog/web/apple-touch-icon.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/videoCatalog/web/app_dev.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -1455,21 +654,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/videoCatalog/def.php">
+    <entry file="file://$PROJECT_DIR$/videoCatalog/web/config.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videoCatalog/web/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videoCatalog/web/G6JmGRlCG1U.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videoCatalog/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+        <state relative-caret-position="192">
+          <caret line="75" column="14" selection-start-line="75" selection-start-column="14" selection-end-line="75" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/catalog.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="110" column="68" lean-forward="true" selection-start-line="110" selection-start-column="68" selection-end-line="110" selection-end-column="68" />
+        <state relative-caret-position="-1035">
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/HomePage.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/search.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="54" selection-start-line="54" selection-end-line="55" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/catalog/addVideo.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
           <folding>
-            <element signature="e#2659#2690#0#HTML" expanded="true" />
-            <element signature="e#2714#2735#0#HTML" expanded="true" />
+            <element signature="e#443#1190#0#HTML" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videoCatalog/src/AppBundle/Controller/VideoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="70" column="25" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="25" />
+          <folding>
+            <element signature="e#160#192#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videoCatalog/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
         </state>
       </provider>
     </entry>

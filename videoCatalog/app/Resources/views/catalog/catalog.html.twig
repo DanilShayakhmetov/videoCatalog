@@ -1,33 +1,5 @@
 {% extends 'base.html.twig' %}
-
 {% block catalog %}
-    {#<head>#}
-
-        {#<meta charset="utf-8">#}
-        {#<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">#}
-        {#<meta name="description" content="">#}
-        {#<meta name="author" content="">#}
-
-        {#<title>3 Col Portfolio - Start Bootstrap Template</title>#}
-
-        {#<!-- Bootstrap core CSS -->#}
-        {#<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">#}
-        {#<script src="/js/bootstrap.min.js"></script>#}
-        {#<!-- Custom styles for this template -->#}
-        {#<link href="css/3-col-portfolio.css" rel="stylesheet">#}
-
-        {#<style>#}
-            {#.size {#}
-                {#width:300px;#}
-                {#height: 185px;#}
-                {#overflow: hidden; /* Обрезаем содержимое */#}
-                {#padding: 5px; /* Поля */#}
-                {#text-overflow: ellipsis; /* Многоточие */#}
-            {#}#}
-
-        {#</style>#}
-    {#</head>#}
-
     <head>
 
         <title>Tutorials</title>
@@ -37,11 +9,14 @@
         <script src="/js/bootstrap.min.js"></script>
         <style>
         .size {
-        width:300px;
-        height: 185px;
+        width:200px;
+        height: 100px;
         overflow: hidden; /* Обрезаем содержимое */
         padding: 5px; /* Поля */
         text-overflow: ellipsis; /* Многоточие */
+        }
+        img {
+            border-radius: 50%;
         }
 
         </style>
@@ -84,14 +59,14 @@
 
 <body>
 
+
 <!-- Page Content -->
 <div class="container">
-
     <!-- Page Heading -->
     <h1 class="my-4">Tutoria's
         <small>Education video's</small>
     </h1>
-
+</div>
 {% for item in full %}
 
 
@@ -105,45 +80,13 @@
 
     <div class="col-sm-3" style="background-color:white;">
     <div class="card" style="width: 18rem;">
-        <a href=/playNow/{{ item.id }}><img class="card-img-top" src={{ item.snippet.thumbnails.high.url}} height="150" width="250" alt=""></a>
+        <a href=/playNow/{{ item.id }}><img class="card-img-top" src={{ item.snippet.thumbnails.high.url}} height="200" width="200" alt=""></a>
         <div class="card-body">
-            <h5 class="size"> <a href=/playNow/{{ item.id }}>{{ item.snippet.title}}</a></h5>
+            <h5 class="size"> <a href=/playNow/{{ item.id }}><p class="text-success"><kbd>{{ item.snippet.title}}</kbd></p></a></h5>
             {#<a href="#" class="btn btn-primary">Go somewhere</a>#}
         </div>
     </div>
     </div>
-
-    {##}
-
-
-        {#<div class="col-sm-3" style="background-color:white;">#}
-            {#<div class="card h-100">#}
-                {#<a href=/playNow/{{ item.id }}><img class="card-img-top" src={{ item.snippet.thumbnails.default.url}} alt=""></a>#}
-                {#<li>{{ item.player.embedHtml|raw }}</li>#}
-                {#<div class="card-body">#}
-                    {#<h4 class="card-title">#}
-                        {#<a href=/playNow/{{ item.id }}>{{ item.snippet.title}}</a>#}
-                    {#</h4>#}
-                    {#<p class="size">{{ item.snippet.localized.description }}</p>#}
-                {#</div>#}
-            {#</div>#}
-        {#</div>#}
-
-
-    {#<div class="row">#}
-        {#<div class="col-lg-4 col-sm-6 portfolio-item">#}
-            {#<div class="card h-100">#}
-                {#<a href="#"><img class="card-img-top" src={{ item.snippet.thumbnails.default.url}} alt=""></a>#}
-                {#<div class="card-body">#}
-                    {#<h4 class="card-title">#}
-                        {#<a href="#">Project One</a>#}
-                    {#</h4>#}
-                    {#<p class="size">{{ item.snippet.localized.description }}</p>#}
-                {#</div>#}
-            {#</div>#}
-        {#</div>#}
-
-    {#</div>#}
 
 
     {% endif %}

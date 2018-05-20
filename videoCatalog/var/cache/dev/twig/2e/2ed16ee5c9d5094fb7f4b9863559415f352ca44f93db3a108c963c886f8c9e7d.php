@@ -62,7 +62,14 @@ class __TwigTemplate_bd7c83da93a6f80934308a0796032a2f491d528ab1d4130615733146187
         <style>
             .size {
                 width:500px;
-                height: 185px;
+                height: 100px;
+                overflow: hidden; /* Обрезаем содержимое */
+                padding: 5px; /* Поля */
+                text-overflow: ellipsis; /* Многоточие */
+            }
+            .Titlesize {
+                width:500px;
+                height: 50px;
                 overflow: hidden; /* Обрезаем содержимое */
                 padding: 5px; /* Поля */
                 text-overflow: ellipsis; /* Многоточие */
@@ -78,34 +85,44 @@ class __TwigTemplate_bd7c83da93a6f80934308a0796032a2f491d528ab1d4130615733146187
             <small>Education video's</small>
         </h1>
 
+        ";
+        // line 39
+        if ((isset($context["full"]) || array_key_exists("full", $context) ? $context["full"] : (function () { throw new Twig_Error_Runtime('Variable "full" does not exist.', 39, $this->source); })())) {
+            // line 40
+            echo "
         <div class=\"row\">
+
             <div class=\"col-sm-4\"> </div>
-            <div class=\"col-sm-4\"> <p>";
-        // line 34
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["full"]) || array_key_exists("full", $context) ? $context["full"] : (function () { throw new Twig_Error_Runtime('Variable "full" does not exist.', 34, $this->source); })()), "snippet", array()), "title", array()), "html", null, true);
-        echo "</p>       ";
-        if ((isset($context["full"]) || array_key_exists("full", $context) ? $context["full"] : (function () { throw new Twig_Error_Runtime('Variable "full" does not exist.', 34, $this->source); })())) {
-            // line 35
-            echo "                    <li>";
-            echo twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["full"]) || array_key_exists("full", $context) ? $context["full"] : (function () { throw new Twig_Error_Runtime('Variable "full" does not exist.', 35, $this->source); })()), "player", array()), "embedHtml", array());
+            <div class=\"col-sm-4\">
+
+                <p  class=\"Titlesize\"><kbd>";
+            // line 46
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["full"]) || array_key_exists("full", $context) ? $context["full"] : (function () { throw new Twig_Error_Runtime('Variable "full" does not exist.', 46, $this->source); })()), "snippet", array()), "title", array()), "html", null, true);
+            echo "</kbd></p></a></h5>
+                ";
+            // line 48
+            echo "
+                    <li>";
+            // line 49
+            echo twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["full"]) || array_key_exists("full", $context) ? $context["full"] : (function () { throw new Twig_Error_Runtime('Variable "full" does not exist.', 49, $this->source); })()), "player", array()), "embedHtml", array());
             echo "</li>
-                    <p class=\"size\">";
-            // line 36
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["full"]) || array_key_exists("full", $context) ? $context["full"] : (function () { throw new Twig_Error_Runtime('Variable "full" does not exist.', 36, $this->source); })()), "snippet", array()), "localized", array()), "description", array()), "html", null, true);
+                    <p <p class=\"size\">>";
+            // line 50
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["full"]) || array_key_exists("full", $context) ? $context["full"] : (function () { throw new Twig_Error_Runtime('Variable "full" does not exist.', 50, $this->source); })()), "snippet", array()), "localized", array()), "description", array()), "html", null, true);
             echo "</p>
                 ";
         }
-        // line 37
+        // line 51
         echo "</div>
             <div class=\"col-sm-4\"> </div>
         </div>
 
         ";
-        // line 42
+        // line 56
         echo "                        ";
-        // line 43
+        // line 57
         echo "        ";
-        // line 44
+        // line 58
         echo "
 
 </body>
@@ -131,7 +148,7 @@ class __TwigTemplate_bd7c83da93a6f80934308a0796032a2f491d528ab1d4130615733146187
 
     public function getDebugInfo()
     {
-        return array (  109 => 44,  107 => 43,  105 => 42,  99 => 37,  94 => 36,  89 => 35,  85 => 34,  53 => 4,  44 => 3,  15 => 1,);
+        return array (  126 => 58,  124 => 57,  122 => 56,  116 => 51,  111 => 50,  107 => 49,  104 => 48,  100 => 46,  92 => 40,  90 => 39,  53 => 4,  44 => 3,  15 => 1,);
     }
 
     public function getSourceContext()
@@ -151,7 +168,14 @@ class __TwigTemplate_bd7c83da93a6f80934308a0796032a2f491d528ab1d4130615733146187
         <style>
             .size {
                 width:500px;
-                height: 185px;
+                height: 100px;
+                overflow: hidden; /* Обрезаем содержимое */
+                padding: 5px; /* Поля */
+                text-overflow: ellipsis; /* Многоточие */
+            }
+            .Titlesize {
+                width:500px;
+                height: 50px;
                 overflow: hidden; /* Обрезаем содержимое */
                 padding: 5px; /* Поля */
                 text-overflow: ellipsis; /* Многоточие */
@@ -167,11 +191,18 @@ class __TwigTemplate_bd7c83da93a6f80934308a0796032a2f491d528ab1d4130615733146187
             <small>Education video's</small>
         </h1>
 
+        {% if full %}
+
         <div class=\"row\">
+
             <div class=\"col-sm-4\"> </div>
-            <div class=\"col-sm-4\"> <p>{{ full.snippet.title}}</p>       {% if full %}
+            <div class=\"col-sm-4\">
+
+                <p  class=\"Titlesize\"><kbd>{{ full.snippet.title}}</kbd></p></a></h5>
+                {#<p>{{ full.snippet.title}}</p>#}
+
                     <li>{{ full.player.embedHtml|raw }}</li>
-                    <p class=\"size\">{{ full.snippet.localized.description }}</p>
+                    <p <p class=\"size\">>{{ full.snippet.localized.description }}</p>
                 {% endif %}</div>
             <div class=\"col-sm-4\"> </div>
         </div>

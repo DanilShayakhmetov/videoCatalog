@@ -65,8 +65,10 @@ class VideoController extends Controller
     }
 
 
+
     /**
-     * @Route( "/search")
+     * @Rest\Post( "/start")
+     * @Rest\Get( "/start"))
      */
     public function searchAction(Request $request)
     {
@@ -126,16 +128,6 @@ class VideoController extends Controller
     public function temp(){
         return $this->render('catalog/basicLanguages.html.twig');
     }
-
-//
-//     /**
-//     * @Route("/about")
-//     */
-//     public function showMsg(){
-//
-//
-//         return $this->render('catalog/about.html.twig');
-//     }
 
 
     /**
@@ -300,67 +292,4 @@ class VideoController extends Controller
 
 
 
-//    /**
-//     * @Route("/choises")
-//     */
-//    public function choiseLanguageAction(Request $request){
-//
-//
-//
-//        $form = $this->createFormBuilder()
-//            ->add('search', ChoiceType::class,
-//                array(
-//                'choices'  => array(
-//                    'Maybe' => null,
-//                    'Yes' => true,
-//                    'No' => false,
-//               )),
-//            'firstVideo' =>null,
-//
-//            )
-//            ->getForm();
-//        $form->handleRequest($request);
-//
-//        if ($form->isSubmitted() && $form->isValid()) {
-//            $data = $form->getData();
-//            $youtube = new Youtube(array('key' => 'AIzaSyAkfKQLoHZHpfhu20alvHt0gwkJ4FPNbtg'));
-//            $requestedVideo = $data['search'];
-//            $videoList = $youtube->searchVideos($requestedVideo);
-//            $video = array();
-//
-//            foreach ($videoList as $value){
-//
-//                $curVideo = $value->id->videoId;
-//                $iterElement = VideoController::videoAction($curVideo);
-//                array_push($video,$iterElement['full']);
-//
-//            }
-//
-//            return $this->render('catalog/catalog.html.twig', array(
-//
-//                'full'=>$video
-//            ));
-//
-//
-//            return var_dump($videoList);
-//              return var_dump($data);
-//            return new Response('Under the sea: ');
-//        }
-//
-//        return $this->render('catalog/search.html.twig', array(
-//            'form' => $form->createView(),
-//        ));
-//
-//    }
-//
-//
-//}
-//
-// /**
-// * "/genius/"
-// */
-// public function showMsg(){
-// return new Response('Under the sea: ');
-// }
 
-//

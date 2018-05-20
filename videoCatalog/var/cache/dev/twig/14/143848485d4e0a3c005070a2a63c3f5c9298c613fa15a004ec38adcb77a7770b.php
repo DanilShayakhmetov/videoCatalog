@@ -50,10 +50,8 @@ class __TwigTemplate_2a5037445f23e7b2d638838cfe06729035afc8bd3e9e148c3ca952b0514
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "search"));
 
         // line 3
-        echo " ";
         $this->env->getRuntime("Symfony\\Component\\Form\\FormRenderer")->setTheme((isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new Twig_Error_Runtime('Variable "form" does not exist.', 3, $this->source); })()), array(0 => "bootstrap_3_layout.html.twig"), true);
         // line 4
-        echo "    ";
         $this->env->getRuntime("Symfony\\Component\\Form\\FormRenderer")->setTheme((isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new Twig_Error_Runtime('Variable "form" does not exist.', 4, $this->source); })()), array(0 => "bootstrap_3_horizontal_layout.html.twig"), true);
         // line 5
         echo "    <html lang=\"en\">
@@ -63,31 +61,105 @@ class __TwigTemplate_2a5037445f23e7b2d638838cfe06729035afc8bd3e9e148c3ca952b0514
     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
     <link rel=\"stylesheet\" href=\"/css/bootstrap.min.css\">
     <script src=\"/js/bootstrap.min.js\"></script>
+    <style>
+        .container {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+        .bottom-left {
+            position: absolute;
+            bottom: 8px;
+            left: 16px;
+        }
+
+        .top-left {
+            position: absolute;
+            top: 8px;
+            left: 16px;
+        }
+
+        .top-right {
+            position: absolute;
+            top: 8px;
+            right: 16px;
+        }
+
+        .bottom-right {
+            position: absolute;
+            bottom: 8px;
+            right: 16px;
+        }
+
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
 </head>
 
 <body>
-    <div class=\"form-group\">
+
+
+<p><img src=\"FONT_PIC.jpg\" width=\"100%\"
+        height=\"100%\" alt=\"__\"></p>
+
+<div class=\"centered\">    <div class=\"form-group\">
 
 
         ";
-        // line 18
-        echo         $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->renderBlock((isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new Twig_Error_Runtime('Variable "form" does not exist.', 18, $this->source); })()), 'form_start');
+        // line 61
+        echo         $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->renderBlock((isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new Twig_Error_Runtime('Variable "form" does not exist.', 61, $this->source); })()), 'form_start');
         echo "
         ";
-        // line 19
-        echo $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->searchAndRenderBlock((isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new Twig_Error_Runtime('Variable "form" does not exist.', 19, $this->source); })()), 'widget');
+        // line 62
+        echo $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->searchAndRenderBlock((isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new Twig_Error_Runtime('Variable "form" does not exist.', 62, $this->source); })()), 'widget');
         echo "
         <div class=\"form-group\">
             <div class=\"col-sm-offset-2 col-sm-10\">
-                <button type=\"submit\" class=\"btn btn-default\">Search</button>
+                <button type=\"submit\" class=\"btn btn-dark\">Search</button>
             </div>
         </div>
         ";
-        // line 26
+        // line 69
         echo "        ";
-        echo         $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->renderBlock((isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new Twig_Error_Runtime('Variable "form" does not exist.', 26, $this->source); })()), 'form_end');
+        echo         $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->renderBlock((isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new Twig_Error_Runtime('Variable "form" does not exist.', 69, $this->source); })()), 'form_end');
         echo "
     </div>
+</div>
+
+    ";
+        // line 74
+        echo "
+
+        ";
+        // line 77
+        echo "        ";
+        // line 78
+        echo "        ";
+        // line 79
+        echo "            ";
+        // line 80
+        echo "                ";
+        // line 81
+        echo "            ";
+        // line 82
+        echo "        ";
+        // line 83
+        echo "        ";
+        // line 84
+        echo "        ";
+        // line 85
+        echo "    ";
+        // line 86
+        echo "
+
+
+
+
 
 </body>
 ";
@@ -111,15 +183,15 @@ class __TwigTemplate_2a5037445f23e7b2d638838cfe06729035afc8bd3e9e148c3ca952b0514
 
     public function getDebugInfo()
     {
-        return array (  87 => 26,  78 => 19,  74 => 18,  59 => 5,  56 => 4,  53 => 3,  44 => 2,  15 => 1,);
+        return array (  158 => 86,  156 => 85,  154 => 84,  152 => 83,  150 => 82,  148 => 81,  146 => 80,  144 => 79,  142 => 78,  140 => 77,  136 => 74,  128 => 69,  119 => 62,  115 => 61,  57 => 5,  55 => 4,  53 => 3,  44 => 2,  15 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Twig_Source("{% extends 'base.html.twig' %}
 {% block search %}
- {% form_theme form 'bootstrap_3_layout.html.twig' %}
-    {% form_theme form 'bootstrap_3_horizontal_layout.html.twig' %}
+{% form_theme form 'bootstrap_3_layout.html.twig' %}
+{% form_theme form 'bootstrap_3_horizontal_layout.html.twig' %}
     <html lang=\"en\">
 <head>
     <title>Tutorials</title>
@@ -127,22 +199,85 @@ class __TwigTemplate_2a5037445f23e7b2d638838cfe06729035afc8bd3e9e148c3ca952b0514
     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
     <link rel=\"stylesheet\" href=\"/css/bootstrap.min.css\">
     <script src=\"/js/bootstrap.min.js\"></script>
+    <style>
+        .container {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+        .bottom-left {
+            position: absolute;
+            bottom: 8px;
+            left: 16px;
+        }
+
+        .top-left {
+            position: absolute;
+            top: 8px;
+            left: 16px;
+        }
+
+        .top-right {
+            position: absolute;
+            top: 8px;
+            right: 16px;
+        }
+
+        .bottom-right {
+            position: absolute;
+            bottom: 8px;
+            right: 16px;
+        }
+
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
 </head>
 
 <body>
-    <div class=\"form-group\">
+
+
+<p><img src=\"FONT_PIC.jpg\" width=\"100%\"
+        height=\"100%\" alt=\"__\"></p>
+
+<div class=\"centered\">    <div class=\"form-group\">
 
 
         {{ form_start(form) }}
         {{ form_widget(form) }}
         <div class=\"form-group\">
             <div class=\"col-sm-offset-2 col-sm-10\">
-                <button type=\"submit\" class=\"btn btn-default\">Search</button>
+                <button type=\"submit\" class=\"btn btn-dark\">Search</button>
             </div>
         </div>
         {#<button type=\"submit\" class=\"btn btn-default\">Submit</button>#}
         {{ form_end(form) }}
     </div>
+</div>
+
+    {#<div class=\"form-group\">#}
+
+
+        {#{{ form_start(form) }}#}
+        {#{{ form_widget(form) }}#}
+        {#<div class=\"form-group\">#}
+            {#<div class=\"col-sm-offset-2 col-sm-10\">#}
+                {#<button type=\"submit\" class=\"btn btn-dark\">Search</button>#}
+            {#</div>#}
+        {#</div>#}
+        {#<button type=\"submit\" class=\"btn btn-default\">Submit</button>#}
+        {#{{ form_end(form) }}#}
+    {#</div>#}
+
+
+
+
+
 
 </body>
 {% endblock %}", "catalog/search.html.twig", "/videoCatalog/app/Resources/views/catalog/search.html.twig");
