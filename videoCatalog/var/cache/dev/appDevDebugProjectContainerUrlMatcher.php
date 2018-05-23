@@ -220,17 +220,32 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
         }
         not_app_video_get:
 
-        // app_video_getrand
-        if ('/randomList' === $pathinfo) {
-            $ret = array (  '_controller' => 'AppBundle\\Controller\\VideoController::getRandAction',  '_route' => 'app_video_getrand',);
-            if (!in_array($canonicalMethod, array('GET'))) {
-                $allow = array_merge($allow, array('GET'));
-                goto not_app_video_getrand;
-            }
+        if (0 === strpos($pathinfo, '/randomList')) {
+            // app_video_getrand
+            if ('/randomList' === $pathinfo) {
+                $ret = array (  '_controller' => 'AppBundle\\Controller\\VideoController::getRandAction',  '_route' => 'app_video_getrand',);
+                if (!in_array($canonicalMethod, array('GET'))) {
+                    $allow = array_merge($allow, array('GET'));
+                    goto not_app_video_getrand;
+                }
 
-            return $ret;
+                return $ret;
+            }
+            not_app_video_getrand:
+
+            // app_video_getrand_1
+            if ('/randomList' === $pathinfo) {
+                $ret = array (  '_controller' => 'AppBundle\\Controller\\VideoController::getRandAction',  '_route' => 'app_video_getrand_1',);
+                if (!in_array($requestMethod, array('POST'))) {
+                    $allow = array_merge($allow, array('POST'));
+                    goto not_app_video_getrand_1;
+                }
+
+                return $ret;
+            }
+            not_app_video_getrand_1:
+
         }
-        not_app_video_getrand:
 
         // app_video_showmsg
         if (0 === strpos($pathinfo, '/playNow') && preg_match('#^/playNow/(?P<videoId>[^/]++)$#sD', $pathinfo, $matches)) {

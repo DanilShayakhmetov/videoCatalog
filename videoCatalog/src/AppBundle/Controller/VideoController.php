@@ -182,7 +182,8 @@ class VideoController extends Controller
         $list = $this->getDoctrine()->getRepository("AppBundle:CatalogTab")->findOneBy(['listName' => $name]);
         $hash = (string)$list->getListHash();
 
-        $video = VideoController::ListAction($hash);
+        $video = VideoController::ListAction($hash)
+        ;
         /**
          * @var $paginator \Knp\Component\Pager\Paginator
          */
@@ -191,7 +192,7 @@ class VideoController extends Controller
             $video,
             /* query NOT result */
             $request->query->getInt('page', 1)/*page number*/,
-            12/*limit per page*/
+            8/*limit per page*/
         );
 
         return $this->render('catalog/catalog.html.twig', array(
@@ -226,7 +227,7 @@ class VideoController extends Controller
      * @Rest\Get("/autocat")
      *
      */
-    public function getAction()
+    public function getAction(Request $request)
     {
 
         $list = $this->getDoctrine()->getRepository("AppBundle:CatalogTab")->findAll();
@@ -239,20 +240,31 @@ class VideoController extends Controller
 
         }
 
+        /**
+         * @var $paginator \Knp\Component\Pager\Paginator
+         */
+        $paginator  = $this->get('knp_paginator');
+        $result = $pagination = $paginator->paginate(
+            $response,
+
+            $request->query->getInt('page', 1)/*page number*/,
+            8/*limit per page*/
+        );
+
         return $this->render('catalog/catalog.html.twig', array(
 
-            'full' => $response
+            'full' => $result
         ));
-
-    }
+}
 
 
 
     /**
      * @Rest\Get("/randomList")
+     * @Rest\Post("/randomList")
      *
      */
-    public function getRandAction()
+    public function getRandAction(Request $request)
     {
 
         $list = $this->getDoctrine()->getRepository("AppBundle:CatalogTab")->findAll();
@@ -270,12 +282,32 @@ class VideoController extends Controller
             array_push($randomList, $response[$item]);
 
         }
+
+
+        /**
+         * @var $paginator \Knp\Component\Pager\Paginator
+         */
+        $paginator  = $this->get('knp_paginator');
+        $result = $pagination = $paginator->paginate(
+            $randomList,
+
+            $request->query->getInt('page', 1)/*page number*/,
+            12/*limit per page*/
+        );
+
         return $this->render('catalog/catalog.html.twig', array(
 
-            'full' => $randomList
+            'full' => $result
         ));
-
     }
+
+
+//        return $this->render('catalog/catalog.html.twig', array(
+//
+//            'full' => $randomList
+//        ));
+//
+//    }
 
 
 
