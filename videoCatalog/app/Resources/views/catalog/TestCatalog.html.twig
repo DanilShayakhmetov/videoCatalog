@@ -1,28 +1,36 @@
+{% extends 'base.html.twig' %}
+{% block Testcatalog %}
+    <head>
 
-{% block catalog %}
-    {#{% if app.user %}#}
-        {#{{ app.user.username }}#}
-    {#{% endif %}#}
-
-{% for item in full %}
-
-
-
-    {% if item %}
-        <div class="col-sm-3" style="background-color:white;">
-
-
-            <h3>{{ item.snippet.title}}</h3>
-            <li>{{ item.player.embedHtml|raw }}</li>
-            <li>{{ item.snippet.localized.description }}</li>
-            {#<li>{{ item.snippet.title}}</li>#}
-
+        <title>Tutorials</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <script src="/js/bootstrap.min.js"></script>
+        <style>
+            .size {
+                width:200px;
+                height: 100px;
+                overflow: hidden; /* Обрезаем содержимое */
+                padding: 5px; /* Поля */
+                text-overflow: ellipsis; /* Многоточие */
+            }
+            img {
+                border-radius: 50%;
+            }
 
 
-        </div>
-    {% endif %}
+        </style>
+    </head>
 
-    {##}
+
+    {#{% for item in full %}#}
+
+    {#{% if item %}#}
+
+    {#<div class="col-sm-3" style="background-color:white;">#}
+
+
     {#<h3>{{ item.snippet.title}}</h3>#}
     {#<li>{{ item.player.embedHtml|raw }}</li>#}
     {#<li>{{ item.snippet.localized.description }}</li>#}
@@ -30,6 +38,66 @@
 
 
 
+    {#</div>#}
+    {#<div class="col-sm-3" style="background-color:white;">#}
+
+    {#<h3>{{ item.snippet.title}}</h3>#}
+    {#<li>{{ item.player.embedHtml|raw }}</li>#}
+    {#<li>{{ item.snippet.localized.description }}</li>#}
+    {#<h3>{{ item.snippet.thumbnails.default.url}}</h3>#}
+
+    {#</div>#}
 
 
+    {#{% endif %}#}
+    {#{% endfor %}#}
+
+
+
+
+    {#<head>    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">#}
+    {#<link href="css/3-col-portfolio.css" rel="stylesheet"></head>#}
+
+    <body>
+
+
+<h1 class="my-4">Tutoria's
+    <small>Education video's</small>
+</h1>
+{% for item in results %}
+    {% if item %}
+
+
+
+
+
+
+
+        <div class="col-sm-3" style="background-color:white;">
+            <div class="card" style="width: 18rem;">
+                <a href=/playNow/{{ item.id }}><img class="card-img-top" src={{ item.snippet.thumbnails.high.url}} height="200" width="200" alt=""></a>
+                <div class="card-body">
+                    <h5 class="size"> <a href=/playNow/{{ item.id }}><p class="text-success"><kbd>{{ item.snippet.title}}</kbd></p></a></h5>
+                    {#<a href="#" class="btn btn-primary">Go somewhere</a>#}
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+    {% endif %}
 {% endfor %}
+
+<div class="navigation">
+    {{ knp_pagination_render(results) }}
+</div>
+
+
+
+
+
+
+{% endblock %}

@@ -20,6 +20,7 @@ class __TwigTemplate_e60706fdb31a077eed9d1bf3c435be7cf08bfbc4b3c650ea39d743174bb
             'search' => array($this, 'block_search'),
             'list' => array($this, 'block_list'),
             'about' => array($this, 'block_about'),
+            'Testcatalog' => array($this, 'block_Testcatalog'),
         );
     }
 
@@ -123,9 +124,9 @@ class __TwigTemplate_e60706fdb31a077eed9d1bf3c435be7cf08bfbc4b3c650ea39d743174bb
         // line 87
         $this->displayBlock('about', $context, $blocks);
         // line 89
+        $this->displayBlock('Testcatalog', $context, $blocks);
+        // line 91
         echo "
-
-
 
 </body>
 </html>
@@ -244,6 +245,23 @@ class __TwigTemplate_e60706fdb31a077eed9d1bf3c435be7cf08bfbc4b3c650ea39d743174bb
 
     }
 
+    // line 89
+    public function block_Testcatalog($context, array $blocks = array())
+    {
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "Testcatalog"));
+
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "Testcatalog"));
+
+        
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
+
+        
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->leave($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof);
+
+    }
+
     public function getTemplateName()
     {
         return "base.html.twig";
@@ -251,7 +269,7 @@ class __TwigTemplate_e60706fdb31a077eed9d1bf3c435be7cf08bfbc4b3c650ea39d743174bb
 
     public function getDebugInfo()
     {
-        return array (  231 => 87,  214 => 85,  197 => 83,  180 => 81,  163 => 79,  146 => 77,  126 => 89,  124 => 87,  122 => 85,  120 => 83,  118 => 81,  116 => 79,  114 => 77,  106 => 71,  35 => 1,);
+        return array (  249 => 89,  232 => 87,  215 => 85,  198 => 83,  181 => 81,  164 => 79,  147 => 77,  129 => 91,  127 => 89,  125 => 87,  123 => 85,  121 => 83,  119 => 81,  117 => 79,  115 => 77,  107 => 71,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -344,8 +362,8 @@ class __TwigTemplate_e60706fdb31a077eed9d1bf3c435be7cf08bfbc4b3c650ea39d743174bb
 {% endblock %}
 {% block about %}
 {% endblock %}
-
-
+{% block Testcatalog %}
+{% endblock %}
 
 
 </body>

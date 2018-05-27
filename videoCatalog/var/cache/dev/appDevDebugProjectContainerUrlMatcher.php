@@ -126,8 +126,8 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
             // app_video_search
             if ('/start' === $pathinfo) {
                 $ret = array (  '_controller' => 'AppBundle\\Controller\\VideoController::searchAction',  '_route' => 'app_video_search',);
-                if (!in_array($requestMethod, array('POST'))) {
-                    $allow = array_merge($allow, array('POST'));
+                if (!in_array($canonicalMethod, array('GET'))) {
+                    $allow = array_merge($allow, array('GET'));
                     goto not_app_video_search;
                 }
 
@@ -138,8 +138,8 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
             // app_video_search_1
             if ('/start' === $pathinfo) {
                 $ret = array (  '_controller' => 'AppBundle\\Controller\\VideoController::searchAction',  '_route' => 'app_video_search_1',);
-                if (!in_array($canonicalMethod, array('GET'))) {
-                    $allow = array_merge($allow, array('GET'));
+                if (!in_array($requestMethod, array('POST'))) {
+                    $allow = array_merge($allow, array('POST'));
                     goto not_app_video_search_1;
                 }
 

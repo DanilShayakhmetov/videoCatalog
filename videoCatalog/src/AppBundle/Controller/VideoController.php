@@ -67,8 +67,9 @@ class VideoController extends Controller
 
 
     /**
+     * @Rest\Get( "/start")
      * @Rest\Post( "/start")
-     * @Rest\Get( "/start"))
+     *
      */
     public function searchAction(Request $request)
     {
@@ -93,10 +94,26 @@ class VideoController extends Controller
 
             }
 
+
+
+
+            /**
+             * @var $paginator \Knp\Component\Pager\Paginator
+             */
+            $paginator  = $this->get('knp_paginator');
+            $result = $pagination = $paginator->paginate(
+                $video ,
+
+                $request->query->getInt('page', 1)/*page number*/,
+                12/*limit per page*/
+            );
+
             return $this->render('catalog/catalog.html.twig', array(
 
-                'full' => $video
+                'full' => $result
             ));
+
+
 
 
         }
@@ -108,20 +125,7 @@ class VideoController extends Controller
     }
 
 
-//    /**
-//     * @Route("/default")
-//     */
-//
-//    public function defaultQuery()
-//    {
-//// $a = VideoController::videoAction("rie-hPVJ7Sw");
-//        $b = VideoController::ListAction("PLuBu40P6jUCZtTMNc8Pd_AHun5AjGmOKK");
-//// var_dump($a);
-//        var_dump($b);
-//        return true;
-//
-//    }
-//
+
     /**
      * @Route("/chose")
      */
@@ -289,7 +293,7 @@ class VideoController extends Controller
          */
         $paginator  = $this->get('knp_paginator');
         $result = $pagination = $paginator->paginate(
-            $randomList,
+            $randomList ,
 
             $request->query->getInt('page', 1)/*page number*/,
             12/*limit per page*/

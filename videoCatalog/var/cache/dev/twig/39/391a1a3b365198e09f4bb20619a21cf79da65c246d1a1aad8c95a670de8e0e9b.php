@@ -169,46 +169,28 @@ class __TwigTemplate_a17994598bc36dc59d6f04a368f01d3aa3af2795ea9d11411dc97884a0c
     </div>
 
 
+
+
+
+
     ";
             }
-            // line 88
+            // line 92
             echo "    ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['item'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 89
-        echo "
-    ";
-        // line 91
-        echo "    ";
         // line 93
-        echo "    ";
+        echo "
+<div class=\"navigation\">
+    ";
         // line 95
-        echo "    ";
-        // line 96
+        echo $this->extensions['Knp\Bundle\PaginatorBundle\Twig\Extension\PaginationExtension']->render($this->env, (isset($context["full"]) || array_key_exists("full", $context) ? $context["full"] : (function () { throw new Twig_Error_Runtime('Variable "full" does not exist.', 95, $this->source); })()));
         echo "
-
-<footer class=\"container-fluid text-center\">
-    <p></p>
-    <p></p>
+</div>
 
 
-    <div class=\"navigation\">
-                ";
-        // line 104
-        echo $this->extensions['Knp\Bundle\PaginatorBundle\Twig\Extension\PaginationExtension']->render($this->env, (isset($context["full"]) || array_key_exists("full", $context) ? $context["full"] : (function () { throw new Twig_Error_Runtime('Variable "full" does not exist.', 104, $this->source); })()));
-        echo "
-            </div>
-</footer>
-";
-        // line 108
-        echo "
-";
-        // line 110
-        echo "    ";
-        // line 112
-        echo "</body>
 
 
 
@@ -234,7 +216,7 @@ class __TwigTemplate_a17994598bc36dc59d6f04a368f01d3aa3af2795ea9d11411dc97884a0c
 
     public function getDebugInfo()
     {
-        return array (  211 => 112,  209 => 110,  206 => 108,  200 => 104,  190 => 96,  188 => 95,  186 => 93,  184 => 91,  181 => 89,  175 => 88,  167 => 82,  161 => 80,  154 => 78,  143 => 69,  141 => 68,  137 => 67,  128 => 60,  126 => 59,  120 => 54,  118 => 53,  114 => 50,  111 => 48,  109 => 47,  107 => 46,  105 => 45,  102 => 43,  100 => 42,  95 => 38,  93 => 37,  91 => 36,  89 => 35,  85 => 32,  82 => 30,  79 => 28,  53 => 3,  44 => 2,  15 => 1,);
+        return array (  189 => 95,  185 => 93,  179 => 92,  167 => 82,  161 => 80,  154 => 78,  143 => 69,  141 => 68,  137 => 67,  128 => 60,  126 => 59,  120 => 54,  118 => 53,  114 => 50,  111 => 48,  109 => 47,  107 => 46,  105 => 45,  102 => 43,  100 => 42,  95 => 38,  93 => 37,  91 => 36,  89 => 35,  85 => 32,  82 => 30,  79 => 28,  53 => 3,  44 => 2,  15 => 1,);
     }
 
     public function getSourceContext()
@@ -325,32 +307,18 @@ class __TwigTemplate_a17994598bc36dc59d6f04a368f01d3aa3af2795ea9d11411dc97884a0c
     </div>
 
 
+
+
+
+
     {% endif %}
     {% endfor %}
 
-    {#<!-- Pagination -->#}
-    {#<ul class=\"pagination justify-content-center\">#}
-{#<div class=\"navigation\">#}
-    {#{{ knp_pagination_render(full) }}#}
-{#</div>#}
-    {#</ul>#}
+<div class=\"navigation\">
+    {{ knp_pagination_render(full) }}
+</div>
 
 
-<footer class=\"container-fluid text-center\">
-    <p></p>
-    <p></p>
-
-
-    <div class=\"navigation\">
-                {{ knp_pagination_render(full) }}
-            </div>
-</footer>
-{#</div>#}
-
-{#<div class=\"navigation\">#}
-    {#{{ knp_pagination_render(full) }}#}
-{#</div>#}
-</body>
 
 
 
