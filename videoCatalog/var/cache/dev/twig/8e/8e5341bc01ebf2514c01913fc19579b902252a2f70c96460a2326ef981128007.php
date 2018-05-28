@@ -78,7 +78,17 @@ class __TwigTemplate_00e280601910c1ac35e997de1134b1797138725c43a7670dd7186d4a879
         </style>
     </head>
 
+
+
+
+
+
+
     <body>
+
+
+
+
 
 
         <h1 class=\"my-4\">Tutoria's
@@ -86,9 +96,9 @@ class __TwigTemplate_00e280601910c1ac35e997de1134b1797138725c43a7670dd7186d4a879
         </h1>
 
         ";
-        // line 39
-        if ((isset($context["full"]) || array_key_exists("full", $context) ? $context["full"] : (function () { throw new Twig_Error_Runtime('Variable "full" does not exist.', 39, $this->source); })())) {
-            // line 40
+        // line 49
+        if ((isset($context["full"]) || array_key_exists("full", $context) ? $context["full"] : (function () { throw new Twig_Error_Runtime('Variable "full" does not exist.', 49, $this->source); })())) {
+            // line 50
             echo "
         <div class=\"row\">
 
@@ -96,33 +106,33 @@ class __TwigTemplate_00e280601910c1ac35e997de1134b1797138725c43a7670dd7186d4a879
             <div class=\"col-sm-4\">
 
                 <p  class=\"Titlesize\"><kbd>";
-            // line 46
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["full"]) || array_key_exists("full", $context) ? $context["full"] : (function () { throw new Twig_Error_Runtime('Variable "full" does not exist.', 46, $this->source); })()), "snippet", array()), "title", array()), "html", null, true);
+            // line 56
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["full"]) || array_key_exists("full", $context) ? $context["full"] : (function () { throw new Twig_Error_Runtime('Variable "full" does not exist.', 56, $this->source); })()), "snippet", array()), "title", array()), "html", null, true);
             echo "</kbd></p></a></h5>
                 ";
-            // line 48
+            // line 58
             echo "
                     <li>";
-            // line 49
-            echo twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["full"]) || array_key_exists("full", $context) ? $context["full"] : (function () { throw new Twig_Error_Runtime('Variable "full" does not exist.', 49, $this->source); })()), "player", array()), "embedHtml", array());
+            // line 59
+            echo twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["full"]) || array_key_exists("full", $context) ? $context["full"] : (function () { throw new Twig_Error_Runtime('Variable "full" does not exist.', 59, $this->source); })()), "player", array()), "embedHtml", array());
             echo "</li>
-                    <p <p class=\"size\">>";
-            // line 50
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["full"]) || array_key_exists("full", $context) ? $context["full"] : (function () { throw new Twig_Error_Runtime('Variable "full" does not exist.', 50, $this->source); })()), "snippet", array()), "localized", array()), "description", array()), "html", null, true);
+                    <p></p> <p class=\"size\">>";
+            // line 60
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["full"]) || array_key_exists("full", $context) ? $context["full"] : (function () { throw new Twig_Error_Runtime('Variable "full" does not exist.', 60, $this->source); })()), "snippet", array()), "localized", array()), "description", array()), "html", null, true);
             echo "</p>
                 ";
         }
-        // line 51
+        // line 61
         echo "</div>
             <div class=\"col-sm-4\"> </div>
         </div>
 
         ";
-        // line 56
+        // line 66
         echo "                        ";
-        // line 57
+        // line 67
         echo "        ";
-        // line 58
+        // line 68
         echo "
 
 </body>
@@ -148,7 +158,7 @@ class __TwigTemplate_00e280601910c1ac35e997de1134b1797138725c43a7670dd7186d4a879
 
     public function getDebugInfo()
     {
-        return array (  126 => 58,  124 => 57,  122 => 56,  116 => 51,  111 => 50,  107 => 49,  104 => 48,  100 => 46,  92 => 40,  90 => 39,  53 => 4,  44 => 3,  15 => 1,);
+        return array (  136 => 68,  134 => 67,  132 => 66,  126 => 61,  121 => 60,  117 => 59,  114 => 58,  110 => 56,  102 => 50,  100 => 49,  53 => 4,  44 => 3,  15 => 1,);
     }
 
     public function getSourceContext()
@@ -184,7 +194,17 @@ class __TwigTemplate_00e280601910c1ac35e997de1134b1797138725c43a7670dd7186d4a879
         </style>
     </head>
 
+
+
+
+
+
+
     <body>
+
+
+
+
 
 
         <h1 class=\"my-4\">Tutoria's
@@ -202,7 +222,7 @@ class __TwigTemplate_00e280601910c1ac35e997de1134b1797138725c43a7670dd7186d4a879
                 {#<p>{{ full.snippet.title}}</p>#}
 
                     <li>{{ full.player.embedHtml|raw }}</li>
-                    <p <p class=\"size\">>{{ full.snippet.localized.description }}</p>
+                    <p></p> <p class=\"size\">>{{ full.snippet.localized.description }}</p>
                 {% endif %}</div>
             <div class=\"col-sm-4\"> </div>
         </div>

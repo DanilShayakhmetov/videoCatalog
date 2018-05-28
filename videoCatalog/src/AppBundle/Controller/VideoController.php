@@ -92,34 +92,40 @@ class VideoController extends Controller
                 $iterElement = VideoController::videoAction($curVideo);
                 array_push($video, $iterElement['full']);
 
-            }
 
-
-
-
-            /**
-             * @var $paginator \Knp\Component\Pager\Paginator
-             */
-            $paginator  = $this->get('knp_paginator');
-            $result = $pagination = $paginator->paginate(
-                $video ,
-
-                $request->query->getInt('page', 1)/*page number*/,
-                12/*limit per page*/
-            );
+//            /**
+//             * @var $paginator \Knp\Component\Pager\Paginator
+//             */
+//            $paginator  = $this->get('knp_paginator');
+//            $result = $pagination = $paginator->paginate(
+//                $video ,
+//
+//                $request->query->getInt('page', 1)/*page n'full' => $resultumber*/,
+//                15/*limit per page*/
+//            );
+//
 
             return $this->render('catalog/catalog.html.twig', array(
 
-                'full' => $result
+                'full' => $video
+//                'full' => $result
             ));
-
-
 
 
         }
 
+        $names = $this->getDoctrine()->getRepository("AppBundle:CatalogTab")->findAll();
+        $response = array();
+        foreach ($names as $item){
+            $name = $item->getListName();
+            array_push($response,$name);
+        }
+
+
+
         return $this->render('catalog/search.html.twig', array(
             'form' => $form->createView(),
+            'names' => $response,
         ));
 
     }
@@ -227,6 +233,9 @@ class VideoController extends Controller
 
 
 
+
+
+
     /**
      * @Rest\Get("/autocat")
      *
@@ -328,6 +337,8 @@ class VideoController extends Controller
             'full' => $video
         ));
     }
+
+
 
 
 

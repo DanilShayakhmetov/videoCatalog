@@ -58,12 +58,18 @@ class __TwigTemplate_a17994598bc36dc59d6f04a368f01d3aa3af2795ea9d11411dc97884a0c
         <link rel=\"stylesheet\" href=\"/css/bootstrap.min.css\">
         <script src=\"/js/bootstrap.min.js\"></script>
         <style>
+
+            .pagenavbar {
+                color: black;
+                text-align: center;
+            }
         .size {
         width:200px;
         height: 100px;
         overflow: hidden; /* Обрезаем содержимое */
         padding: 5px; /* Поля */
         text-overflow: ellipsis; /* Многоточие */
+            color: black;
         }
         img {
             border-radius: 50%;
@@ -75,71 +81,70 @@ class __TwigTemplate_a17994598bc36dc59d6f04a368f01d3aa3af2795ea9d11411dc97884a0c
 
 
     ";
-        // line 28
+        // line 34
         echo "
     ";
-        // line 30
+        // line 36
         echo "
         ";
-        // line 32
-        echo "
-
-            ";
-        // line 35
-        echo "            ";
-        // line 36
-        echo "            ";
-        // line 37
-        echo "            ";
         // line 38
         echo "
 
+            ";
+        // line 41
+        echo "            ";
+        // line 42
+        echo "            ";
+        // line 43
+        echo "            ";
+        // line 44
+        echo "
+
 
         ";
-        // line 42
+        // line 48
         echo "        ";
-        // line 43
+        // line 49
         echo "
             ";
-        // line 45
+        // line 51
         echo "            ";
-        // line 46
+        // line 52
         echo "            ";
-        // line 47
+        // line 53
         echo "            ";
-        // line 48
+        // line 54
         echo "
         ";
-        // line 50
+        // line 56
         echo "
 
     ";
-        // line 53
-        echo "    ";
-        // line 54
-        echo "
-
-
-
-";
         // line 59
         echo "    ";
         // line 60
         echo "
-<body>
 
 
-<h1 class=\"my-4\">Tutoria's
-    <small>Education video's</small>
-</h1>
+
 ";
-        // line 67
+        // line 65
+        echo "    ";
+        // line 66
+        echo "
+
+
+    <body>
+
+
+";
+        // line 72
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["full"]) || array_key_exists("full", $context) ? $context["full"] : (function () { throw new Twig_Error_Runtime('Variable "full" does not exist.', 67, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["full"]) || array_key_exists("full", $context) ? $context["full"] : (function () { throw new Twig_Error_Runtime('Variable "full" does not exist.', 72, $this->source); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["item"]) {
-            // line 68
+            // line 73
             if ($context["item"]) {
-                // line 69
+                // line 74
                 echo "
 
 
@@ -150,21 +155,20 @@ class __TwigTemplate_a17994598bc36dc59d6f04a368f01d3aa3af2795ea9d11411dc97884a0c
     <div class=\"col-sm-3\" style=\"background-color:white;\">
     <div class=\"card\" style=\"width: 18rem;\">
         <a href=/playNow/";
-                // line 78
+                // line 83
                 echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["item"], "id", array()), "html", null, true);
                 echo "><img class=\"card-img-top\" src=";
                 echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, $context["item"], "snippet", array()), "thumbnails", array()), "high", array()), "url", array()), "html", null, true);
                 echo " height=\"200\" width=\"200\" alt=\"\"></a>
         <div class=\"card-body\">
             <h5 class=\"size\"> <a href=/playNow/";
-                // line 80
+                // line 85
                 echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["item"], "id", array()), "html", null, true);
                 echo "><p class=\"text-success\"><kbd>";
                 echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, $context["item"], "snippet", array()), "title", array()), "html", null, true);
                 echo "</kbd></p></a></h5>
-            ";
-                // line 82
-                echo "        </div>
+
+        </div>
     </div>
     </div>
 
@@ -175,23 +179,41 @@ class __TwigTemplate_a17994598bc36dc59d6f04a368f01d3aa3af2795ea9d11411dc97884a0c
 
     ";
             }
-            // line 92
+            // line 97
             echo "    ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['item'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 93
+        // line 98
         echo "
-<div class=\"navigation\">
+
+
+
+
+    <footer class=\"container-fluid\">
+
+        <div class=\"pagenavbar\">
+            <div class=\"navigation\" >
+                ";
+        // line 107
+        echo $this->extensions['Knp\Bundle\PaginatorBundle\Twig\Extension\PaginationExtension']->render($this->env, (isset($context["full"]) || array_key_exists("full", $context) ? $context["full"] : (function () { throw new Twig_Error_Runtime('Variable "full" does not exist.', 107, $this->source); })()));
+        echo "
+            </div>
+
+        </div>
+    </footer>
+
+
+
     ";
-        // line 95
-        echo $this->extensions['Knp\Bundle\PaginatorBundle\Twig\Extension\PaginationExtension']->render($this->env, (isset($context["full"]) || array_key_exists("full", $context) ? $context["full"] : (function () { throw new Twig_Error_Runtime('Variable "full" does not exist.', 95, $this->source); })()));
+        // line 117
+        echo "    ";
+        // line 119
         echo "
-</div>
-
-
-
+";
+        // line 121
+        echo "
 
 
 
@@ -216,7 +238,7 @@ class __TwigTemplate_a17994598bc36dc59d6f04a368f01d3aa3af2795ea9d11411dc97884a0c
 
     public function getDebugInfo()
     {
-        return array (  189 => 95,  185 => 93,  179 => 92,  167 => 82,  161 => 80,  154 => 78,  143 => 69,  141 => 68,  137 => 67,  128 => 60,  126 => 59,  120 => 54,  118 => 53,  114 => 50,  111 => 48,  109 => 47,  107 => 46,  105 => 45,  102 => 43,  100 => 42,  95 => 38,  93 => 37,  91 => 36,  89 => 35,  85 => 32,  82 => 30,  79 => 28,  53 => 3,  44 => 2,  15 => 1,);
+        return array (  216 => 121,  213 => 119,  211 => 117,  200 => 107,  189 => 98,  183 => 97,  166 => 85,  159 => 83,  148 => 74,  146 => 73,  142 => 72,  134 => 66,  132 => 65,  126 => 60,  124 => 59,  120 => 56,  117 => 54,  115 => 53,  113 => 52,  111 => 51,  108 => 49,  106 => 48,  101 => 44,  99 => 43,  97 => 42,  95 => 41,  91 => 38,  88 => 36,  85 => 34,  53 => 3,  44 => 2,  15 => 1,);
     }
 
     public function getSourceContext()
@@ -231,12 +253,18 @@ class __TwigTemplate_a17994598bc36dc59d6f04a368f01d3aa3af2795ea9d11411dc97884a0c
         <link rel=\"stylesheet\" href=\"/css/bootstrap.min.css\">
         <script src=\"/js/bootstrap.min.js\"></script>
         <style>
+
+            .pagenavbar {
+                color: black;
+                text-align: center;
+            }
         .size {
         width:200px;
         height: 100px;
         overflow: hidden; /* Обрезаем содержимое */
         padding: 5px; /* Поля */
         text-overflow: ellipsis; /* Многоточие */
+            color: black;
         }
         img {
             border-radius: 50%;
@@ -281,12 +309,11 @@ class __TwigTemplate_a17994598bc36dc59d6f04a368f01d3aa3af2795ea9d11411dc97884a0c
 {#<head>    <link href=\"vendor/bootstrap/css/bootstrap.min.css\" rel=\"stylesheet\">#}
     {#<link href=\"css/3-col-portfolio.css\" rel=\"stylesheet\"></head>#}
 
-<body>
 
 
-<h1 class=\"my-4\">Tutoria's
-    <small>Education video's</small>
-</h1>
+    <body>
+
+
 {% for item in full %}
 {% if item %}
 
@@ -301,7 +328,7 @@ class __TwigTemplate_a17994598bc36dc59d6f04a368f01d3aa3af2795ea9d11411dc97884a0c
         <a href=/playNow/{{ item.id }}><img class=\"card-img-top\" src={{ item.snippet.thumbnails.high.url}} height=\"200\" width=\"200\" alt=\"\"></a>
         <div class=\"card-body\">
             <h5 class=\"size\"> <a href=/playNow/{{ item.id }}><p class=\"text-success\"><kbd>{{ item.snippet.title}}</kbd></p></a></h5>
-            {#<a href=\"#\" class=\"btn btn-primary\">Go somewhere</a>#}
+
         </div>
     </div>
     </div>
@@ -314,11 +341,28 @@ class __TwigTemplate_a17994598bc36dc59d6f04a368f01d3aa3af2795ea9d11411dc97884a0c
     {% endif %}
     {% endfor %}
 
-<div class=\"navigation\">
-    {{ knp_pagination_render(full) }}
-</div>
 
 
+
+
+    <footer class=\"container-fluid\">
+
+        <div class=\"pagenavbar\">
+            <div class=\"navigation\" >
+                {{ knp_pagination_render(full) }}
+            </div>
+
+        </div>
+    </footer>
+
+
+
+    {#<div class=\"pagenavbar\">#}
+{#<div class=\"navigation\" >#}
+    {#{{ knp_pagination_render(full) }}#}
+{#</div>#}
+
+{#</div>#}
 
 
 
