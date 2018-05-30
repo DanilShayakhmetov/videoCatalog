@@ -63,45 +63,78 @@ class __TwigTemplate_b3623cbb84a1e0da6177f4a0c2efa824918004123bd0c00f14a89a98448
     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
     <link rel=\"stylesheet\" href=\"/css/bootstrap.min.css\">
     <script src=\"/js/bootstrap.min.js\"></script>
-    <style>
-        .container {
-            position: relative;
-            text-align: center;
-            color: white;
-        }
-
-        .bottom-left {
-            position: absolute;
-            bottom: 8px;
-            left: 16px;
-        }
-
-        .top-left {
-            position: absolute;
-            top: 8px;
-            left: 16px;
-        }
-
-        .top-right {
-            position: absolute;
-            top: 8px;
-            right: 16px;
-        }
-
-        .bottom-right {
-            position: absolute;
-            bottom: 8px;
-            right: 16px;
-        }
-
-        .centered {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-    </style>
-</head>
+    ";
+        // line 13
+        echo "        ";
+        // line 14
+        echo "            ";
+        // line 15
+        echo "            ";
+        // line 16
+        echo "            ";
+        // line 17
+        echo "        ";
+        // line 18
+        echo "
+        ";
+        // line 20
+        echo "            ";
+        // line 21
+        echo "            ";
+        // line 22
+        echo "            ";
+        // line 23
+        echo "        ";
+        // line 24
+        echo "
+        ";
+        // line 26
+        echo "            ";
+        // line 27
+        echo "            ";
+        // line 28
+        echo "            ";
+        // line 29
+        echo "        ";
+        // line 30
+        echo "
+        ";
+        // line 32
+        echo "            ";
+        // line 33
+        echo "            ";
+        // line 34
+        echo "            ";
+        // line 35
+        echo "        ";
+        // line 36
+        echo "
+        ";
+        // line 38
+        echo "            ";
+        // line 39
+        echo "            ";
+        // line 40
+        echo "            ";
+        // line 41
+        echo "        ";
+        // line 42
+        echo "
+        ";
+        // line 44
+        echo "            ";
+        // line 45
+        echo "            ";
+        // line 46
+        echo "            ";
+        // line 47
+        echo "            ";
+        // line 48
+        echo "        ";
+        // line 49
+        echo "    ";
+        // line 50
+        echo "</head>
 
 <body>
 
@@ -154,7 +187,7 @@ class __TwigTemplate_b3623cbb84a1e0da6177f4a0c2efa824918004123bd0c00f14a89a98448
 
     public function getDebugInfo()
     {
-        return array (  129 => 68,  120 => 61,  116 => 60,  59 => 5,  56 => 4,  53 => 3,  44 => 2,  15 => 1,);
+        return array (  162 => 68,  153 => 61,  149 => 60,  137 => 50,  135 => 49,  133 => 48,  131 => 47,  129 => 46,  127 => 45,  125 => 44,  122 => 42,  120 => 41,  118 => 40,  116 => 39,  114 => 38,  111 => 36,  109 => 35,  107 => 34,  105 => 33,  103 => 32,  100 => 30,  98 => 29,  96 => 28,  94 => 27,  92 => 26,  89 => 24,  87 => 23,  85 => 22,  83 => 21,  81 => 20,  78 => 18,  76 => 17,  74 => 16,  72 => 15,  70 => 14,  68 => 13,  59 => 5,  56 => 4,  53 => 3,  44 => 2,  15 => 1,);
     }
 
     public function getSourceContext()
@@ -170,44 +203,44 @@ class __TwigTemplate_b3623cbb84a1e0da6177f4a0c2efa824918004123bd0c00f14a89a98448
     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
     <link rel=\"stylesheet\" href=\"/css/bootstrap.min.css\">
     <script src=\"/js/bootstrap.min.js\"></script>
-    <style>
-        .container {
-            position: relative;
-            text-align: center;
-            color: white;
-        }
+    {#<style>#}
+        {#.container {#}
+            {#position: relative;#}
+            {#text-align: center;#}
+            {#color: white;#}
+        {#}#}
 
-        .bottom-left {
-            position: absolute;
-            bottom: 8px;
-            left: 16px;
-        }
+        {#.bottom-left {#}
+            {#position: absolute;#}
+            {#bottom: 8px;#}
+            {#left: 16px;#}
+        {#}#}
 
-        .top-left {
-            position: absolute;
-            top: 8px;
-            left: 16px;
-        }
+        {#.top-left {#}
+            {#position: absolute;#}
+            {#top: 8px;#}
+            {#left: 16px;#}
+        {#}#}
 
-        .top-right {
-            position: absolute;
-            top: 8px;
-            right: 16px;
-        }
+        {#.top-right {#}
+            {#position: absolute;#}
+            {#top: 8px;#}
+            {#right: 16px;#}
+        {#}#}
 
-        .bottom-right {
-            position: absolute;
-            bottom: 8px;
-            right: 16px;
-        }
+        {#.bottom-right {#}
+            {#position: absolute;#}
+            {#bottom: 8px;#}
+            {#right: 16px;#}
+        {#}#}
 
-        .centered {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-    </style>
+        {#.centered {#}
+            {#position: absolute;#}
+            {#top: 50%;#}
+            {#left: 50%;#}
+            {#transform: translate(-50%, -50%);#}
+        {#}#}
+    {#</style>#}
 </head>
 
 <body>

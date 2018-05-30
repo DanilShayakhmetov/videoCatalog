@@ -7,7 +7,7 @@ services:
     container_name: nginx.video
     build:
       context: ./
-      dockerfile: Dockerfile_NGINX.sh
+      dockerfile: Dockerfile_NGINX
     ports:
       - "8000:80"
     links:
@@ -21,7 +21,7 @@ services:
     container_name: php.video
     build:
       context: ./
-      dockerfile: Dockerfile_PHP.sh
+      dockerfile: Dockerfile_PHP
     links:
       - db
     volumes:
